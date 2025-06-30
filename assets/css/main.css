@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  --font-sans: 'Atkinson Hyperlegible', sans-serif;
+}
+h1,h2,h3,h4,h5{
+  font-family: 'Anton';
+  letter-spacing: 0.1rem;
+    margin: 1rem 0;
+}
+
+h1{
+  margin-top: 2rem;
+  font-size: 3rem;
+  @apply text-primary text-center;
+}
+ img:first-child {
+  margin: 2rem auto;
+  text-align: center;
+
+}
+
+h2{
+  margin-top: 2rem;
+  font-size: 2rem;
+}
