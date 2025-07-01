@@ -26,9 +26,52 @@ hr {
 @apply my-8
 }
 .module-content strong{
-    @apply text-primary ;
+   font-weight: bolder;
 }
 .module-content p{
    @apply my-4
 }
 
+.module-content li{
+  list-style: disc;
+  margin-left: 4rem;
+}
+
+.modules-navigation li{
+    list-style: none;
+  margin-left: 0;
+}
+
+
+.counter {
+    padding: 8px 15px;
+    font-weight: bold;
+}
+
+.counter-bad {
+    color: #572120;
+    background:#f7dddc;
+}
+
+.counter-good {
+    color: #1e4c2e;
+    background: #dbf2e3;
+}
+.alert {
+    position: relative;
+    padding: 1rem ;
+    margin-bottom: 2rem ;
+    color: var(--sb-alert-color);
+    background-color: var(--sb-alert-bg);
+}
+
+.alert-danger {
+    --sb-alert-color:  #572120;
+    --sb-alert-bg: #f7dddc;
+    --sb-alert-border-color:  #572120;
+}
+.alert-success {
+    --sb-alert-color:   #1e4c2e;
+    --sb-alert-bg: #dbf2e3;
+    --sb-alert-border-color:   #1e4c2e;
+}

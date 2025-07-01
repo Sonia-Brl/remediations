@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     classSuffix: ''
   },
   css: ['~/assets/css/main.css'],
-  devtools: { enabled: true },
+  devtools: { enabled: false },
   content: {
     build: {
       markdown: {

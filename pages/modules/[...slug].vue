@@ -44,9 +44,9 @@ onMounted(() => {
   <template v-if="page" >
     <div class="grid grid-cols-8 gap-8 container mx-auto">
     <ContentRenderer :value="page" class="module-content" :class="{ 'col-span-8 md:col-span-6': page.body.toc, 'col-span-8': !page.body.toc }"/>
-  <div class="col-span-2 hidden md:block" v-if="page.body.toc" >
-            <aside class="sticky top-8">
-              <div class="font-semibold mb-2">
+  <div class="col-span-2 hidden md:block pt-8 mt-8" v-if="page.body.toc" >
+            <aside class="sticky top-8   pt-8">
+              <div class="font-semibold my-2">
                 Table des matières
               </div>
               <nav>

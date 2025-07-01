@@ -1,114 +1,40 @@
 <template>
-    <main class="min-h-screen flex flex-col justify-between items-between ">
+    <div class="min-h-screen flex flex-col justify-between items-between ">
         <div class="">
-            <div class="flex justify-between items-center border-b border-default w-full">
+            <div class="flex z-40 bg-default fixed justify-between items-center border-b border-default w-full">
                 <ULink as="button" to="/modules/ui-ux/"  class="p-4"><UIcon name="i-lucide-home" class="size-5" /></ULink>
-                      
-<div>
-                   <ColorModeButton></ColorModeButton>
-                        <UDropdownMenu
-                         size="xl",
-                    :items="items"
-                    :ui="{
-                        content: 'w-8'
-                    }"
-                    >
-                    <UButton icon="i-lucide-menu" color="neutral" variant="outline" />
-                </UDropdownMenu>
- 
-</div>
-            
+                <div class="mr-8">
+                    <ColorModeButton></ColorModeButton>
+                    <USlideover >
+                        <UButton icon="i-lucide-menu" color="neutral" variant="outline" />
+                        <template #body>
+                            <UiUxList  class="" />
+                        </template>
+                    </USlideover>
+                </div>
+            </div>
+            <main class="p-4 md:p-8 w-full mx-auto mt-8 pt-8" >
+                <slot/>
+            </main>
         </div>
-        <main class="p-4 md:p-8 w-full md:w-3/4 mx-auto" >
-            <slot/>
-        </main>
+        <TheFooter></TheFooter>
     </div>
-    <TheFooter></TheFooter>
-</main>
 </template>
+
 <script setup lang="ts">
+const open = ref(false);
+const anchor = ref({ x: 0, y: 0 }); 
 
-import { NuxtLink } from '#components';
-import type { DropdownMenuItem } from '@nuxt/ui'
-
-const items = ref<DropdownMenuItem[][]>([
-[  {
-    label: 'Html - CSS',
-    icon: 'i-lucide-book-open',
-    to: '/',
-    disabled: true,
-    children: []
-},
-{
-    label: 'Algorithmie',
-    icon: 'i-lucide-book-open',
-    to: '/',
-    disabled: true,
-    children: []
-},
-{
-    label: 'UI/UX',
-    icon: 'i-lucide-book-open',
-    to: '/modules/ui-ux',
-    children: [
-       [{
-    label: 'Les fondamentaux',
-    icon: 'i-lucide-book-open',
-    to: '/',
-},{
-    label: 'Qu’est-ce que l’UX ?',
-     icon: 'i-lucide-corner-down-right',
-    to: '/',
-},{
-    label: 'Distinguer l’UX de l’UI',
-     icon: 'i-lucide-corner-down-right',
-    to: '/',
-},{
-    label: 'Concept d’usabilité',
-     icon: 'i-lucide-corner-down-right',
-    to: '/',
-},{
-    label: 'Le taux de rétention',
-     icon: 'i-lucide-corner-down-right',
-    to: '/',
-},{
-    label: 'Le Hook Canvas',
-     icon: 'i-lucide-corner-down-right',
-    to: '/',
-}
-
-
-    ],
-    [{
-    label: 'Les principales lois',
-    icon: 'i-lucide-book-open',
-    to: '/',
-},{
-    label: 'La loi de Miller',
-     icon: 'i-lucide-corner-down-right',
-    to: '/',
-}
-,{
-    label: 'La loi de Hick',
-     icon: 'i-lucide-corner-down-right',
-    to: '/',
-},{
-    label: 'La loi de Jackob',
-     icon: 'i-lucide-corner-down-right',
-    to: '/',
-},{
-    label: 'L’effet Von Restroff',
-     icon: 'i-lucide-corner-down-right',
-    to: '/',
-}
-    ]
-    ]
-},
-],
-])
-
+const reference = computed(() => ({
+    getBoundingClientRect: () =>
+    ({
+        width: 0,
+        height: 0,
+        left: anchor.value.x,
+        right: anchor.value.x,
+        top: anchor.value.y,
+        bottom: anchor.value.y,
+        ...anchor.value
+    } as DOMRect)
+}))
 </script>
-
-
-
-

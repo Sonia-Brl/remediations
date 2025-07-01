@@ -1,6 +1,5 @@
 <template>
   <ul>
-
     <li v-for="link in links" :key="link.id">
       <NuxtLink :to="{ path: route.path, hash: `#${link.id}` }"
         :class="{ 'ml-4': level, 'text-primary': activeId === link.id }">

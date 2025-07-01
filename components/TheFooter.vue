@@ -5,7 +5,6 @@
             <div class="p-4">
                 <ULink as="button" to="https://www.linkedin.com/in/sonia-brunel/" target="_blank" class="p-4"><UIcon name="i-lucide-linkedin" class="size-5" /></ULink>
                 <ULink as="button" to="https://github.com/Sonia-Brl" target="_blank" class="p-4"><UIcon name="i-lucide-github" class="size-5" /></ULink>
-                <ULink as="button" to="https://www.instagram.com/sonia_brl" target="_blank" class="p-4"><UIcon name="i-lucide-instagram" class="size-5" /></ULink>
             </div>
             <p class="text-sm"><small>Copyright Sonia Brunel 2025 - Tout droits réservés</small></p>
         </div>
