@@ -1,1 +1,3 @@
-# Liste UI-UX
+# Module UI-UX
+
+::ui-ux-list

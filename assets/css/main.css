@@ -4,6 +4,9 @@
 @theme {
   --font-sans: 'Atkinson Hyperlegible', sans-serif;
 }
+body{
+  font-size: 1.2rem;
+}
 h1,h2,h3,h4,h5{
   font-family: 'Anton';
   letter-spacing: 0.1rem;
@@ -24,4 +27,8 @@ h1{
 h2{
   margin-top: 2rem;
   font-size: 2rem;
+}
+
+.module-content strong{
+    @apply text-primary ;
 }
