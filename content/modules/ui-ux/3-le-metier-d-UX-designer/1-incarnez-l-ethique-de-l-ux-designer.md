@@ -1,4 +1,9 @@
-**Synthèse : Éthique et responsabilité de l’UX designer**
+---
+title:  1 - Éthique et responsabilité de l’UX designer
+toc: true
+---
+
+**Éthique et responsabilité de l’UX designer**
 
 **Responsabilité du designer**
 Après avoir étudié les techniques d’engagement utilisateur (modèle du crochet de Nir Eyal), il est crucial de comprendre que l’UX designer porte une responsabilité éthique sur l’impact des produits qu’il conçoit sur la société et les utilisateurs.

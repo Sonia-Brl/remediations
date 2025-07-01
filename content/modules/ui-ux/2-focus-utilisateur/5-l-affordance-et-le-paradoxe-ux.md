@@ -1,3 +1,8 @@
+---
+title:  5 - L’affordance et le paradoxe UX
+toc: true
+---
+
 # L’affordance et le paradoxe UX
 
 **Exigences croissantes des utilisateurs**

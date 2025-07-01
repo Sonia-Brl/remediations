@@ -1,4 +1,9 @@
-# 3 -Concevoir pour l’expérience mobile
+---
+title:  3 - Concevoir pour l’expérience mobile
+toc: true
+---
+
+# 3 - Concevoir pour l’expérience mobile
 
 **Nouvelle définition du mobile**
 Le concept de « mobile » ne se limite pas aux appareils (smartphones, tablettes) mais caractérise surtout l’utilisateur en perpétuel mouvement dans un environnement numérique connecté en permanence.

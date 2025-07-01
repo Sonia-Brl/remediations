@@ -1,9 +1,17 @@
+---
+title: La Loi de Miller
+toc: true
+---
+![Visuel de la loi de Miller](/assets/img/ui-ux/lois/loi-miller.png)
+
+
 # La Loi de Miller
+
 ## Introduction
 
 La Loi de Miller, également connue sous le nom de "règle des 7±2", est un principe fondamental en psychologie cognitive qui a des applications cruciales en design d'interface utilisateur. Formulée par le psychologue George A. Miller en 1956, cette loi définit les limites de la mémoire de travail humaine.
 
-## Énoncé de la Loi
+## La Loi
 
 **"Le nombre magique sept, plus ou moins deux"** - La capacité de la mémoire de travail humaine est limitée à environ 7 éléments (±2), soit entre 5 et 9 éléments simultanément.
 
@@ -21,6 +29,8 @@ Le cerveau groupe naturellement les informations en "chunks" ou blocs cohérents
 
 ## Applications en UI/UX Design
 
+::miller-law
+::
 ### 1. Navigation et Menus
 
 **Bonnes Pratiques :**

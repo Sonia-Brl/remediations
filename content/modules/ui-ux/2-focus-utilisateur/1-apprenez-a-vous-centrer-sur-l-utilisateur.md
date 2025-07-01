@@ -1,3 +1,8 @@
+---
+title:  1 - La conception UX axée sur l’utilisateur
+toc: true
+---
+
 # La conception UX axée sur l’utilisateur
 
 ## Base méthodologique

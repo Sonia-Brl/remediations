@@ -1,100 +1,114 @@
 <template>
     <main class="min-h-screen flex flex-col justify-between items-between ">
-        <div class="container mx-auto">
-     <div>
-               <UNavigationMenu  orientation="horizontal" :items="items"  class="p-4 data-[orientation=horizontal]:border-b border-default data-[orientation=horizontal]:w-full data-[orientation=vertical]:w-48" />
-               <ColorModeButton></ColorModeButton>
-     </div>
-            <main class="p-4 " >
-                <slot/>
-            </main>
+        <div class="">
+            <div class="flex justify-between items-center border-b border-default w-full">
+                <ULink as="button" to="/modules/ui-ux/"  class="p-4"><UIcon name="i-lucide-home" class="size-5" /></ULink>
+                      
+<div>
+                   <ColorModeButton></ColorModeButton>
+                        <UDropdownMenu
+                         size="xl",
+                    :items="items"
+                    :ui="{
+                        content: 'w-8'
+                    }"
+                    >
+                    <UButton icon="i-lucide-menu" color="neutral" variant="outline" />
+                </UDropdownMenu>
+ 
+</div>
+            
         </div>
-        <TheFooter></TheFooter>
-    </main>
+        <main class="p-4 md:p-8 w-full md:w-3/4 mx-auto" >
+            <slot/>
+        </main>
+    </div>
+    <TheFooter></TheFooter>
+</main>
 </template>
 <script setup lang="ts">
-import type { NavigationMenuItem } from '@nuxt/ui'
-const items = ref<NavigationMenuItem[][]>([
-[
-{
-    label: 'Links',
-    type: 'label'
+
+import { NuxtLink } from '#components';
+import type { DropdownMenuItem } from '@nuxt/ui'
+
+const items = ref<DropdownMenuItem[][]>([
+[  {
+    label: 'Html - CSS',
+    icon: 'i-lucide-book-open',
+    to: '/',
+    disabled: true,
+    children: []
 },
 {
-    label: 'Remediations',
+    label: 'Algorithmie',
     icon: 'i-lucide-book-open',
-    active: true,
-    defaultOpen: true,
+    to: '/',
+    disabled: true,
+    children: []
+},
+{
+    label: 'UI/UX',
+    icon: 'i-lucide-book-open',
+    to: '/modules/ui-ux',
     children: [
-    {
-        label: 'UI/UX',
-        description: 'Créer des interfaces numériques à la fois esthétiques et intuitives.',
-        icon: 'i-lucide-palette',
-        to:"/modules/ui-ux"
-    }
+       [{
+    label: 'Les fondamentaux',
+    icon: 'i-lucide-book-open',
+    to: '/',
+},{
+    label: 'Qu’est-ce que l’UX ?',
+     icon: 'i-lucide-corner-down-right',
+    to: '/',
+},{
+    label: 'Distinguer l’UX de l’UI',
+     icon: 'i-lucide-corner-down-right',
+    to: '/',
+},{
+    label: 'Concept d’usabilité',
+     icon: 'i-lucide-corner-down-right',
+    to: '/',
+},{
+    label: 'Le taux de rétention',
+     icon: 'i-lucide-corner-down-right',
+    to: '/',
+},{
+    label: 'Le Hook Canvas',
+     icon: 'i-lucide-corner-down-right',
+    to: '/',
+}
+
+
+    ],
+    [{
+    label: 'Les principales lois',
+    icon: 'i-lucide-book-open',
+    to: '/',
+},{
+    label: 'La loi de Miller',
+     icon: 'i-lucide-corner-down-right',
+    to: '/',
+}
+,{
+    label: 'La loi de Hick',
+     icon: 'i-lucide-corner-down-right',
+    to: '/',
+},{
+    label: 'La loi de Jackob',
+     icon: 'i-lucide-corner-down-right',
+    to: '/',
+},{
+    label: 'L’effet Von Restroff',
+     icon: 'i-lucide-corner-down-right',
+    to: '/',
+}
+    ]
     ]
 },
-
-
 ],
-[
-{
-    label: 'GitHub',
-    icon: 'i-simple-icons-github',
-    to: 'https://github.com/Sonia-Brl/remediations',
-    target: '_blank'
-},
-]
 ])
-const itemsFuture = ref<NavigationMenuItem[][]>([
-[
-{
-    label: 'Links',
-    type: 'label'
-},
-{
-    label: 'Remediations',
-    icon: 'i-lucide-book-open',
-    active: true,
-    defaultOpen: true,
-    children: [
-    {
-        label: 'UI/UX',
-        description: 'Créer des interfaces numériques à la fois esthétiques et intuitives.',
-        icon: 'i-lucide-palette',
-        to:"/modules/ui-ux"
-    },
-    {
-        label: 'Html - CSS',
-        description: 'HTML = structure, CSS = apparence visuelle.',
-        icon: 'i-lucide-code',
-    },
-    {
-        label: 'Algorithmie',
-        icon: 'i-lucide-code',
-        description: 'Décomposer un problème complexe en une série d\'instructions logiques '
-    },
-    {
-        label: 'Javascript',
-        icon: 'i-lucide-code',
-        description: 'Donne vie aux pages web en transformant des sites statiques en applications web réactives.'
-    }
-    ]
-},
 
-
-],
-[
-{
-    label: 'GitHub',
-    icon: 'i-simple-icons-github',
-    to: 'https://github.com/Sonia-Brl/remediations',
-    target: '_blank'
-},
-]
-])
 </script>
 
-<style>
 
-</style>
+
+

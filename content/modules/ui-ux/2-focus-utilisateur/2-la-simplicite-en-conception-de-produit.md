@@ -1,3 +1,8 @@
+---
+title:  2 - L’approche minimaliste dans le développement produit
+toc: true
+---
+
 #  L’approche minimaliste dans le développement produit
 
 ## Fondement de l’intuitivité

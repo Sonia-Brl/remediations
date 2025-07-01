@@ -1,13 +1,6 @@
 ---
 title: La Loi de Hick
 toc: true
-image: assets/img/ui-ux/lois/loi-hick.png
-head:
-  meta:
-    - name: 'og:image'
-      content: /images/vue-logo.png
-publishedAt: 2022-07-12 17:15:00
-
 ---
 ![Visuel de la loi de Hick](/assets/img/ui-ux/lois/loi-hick.png)
 # La Loi de Hick
@@ -31,7 +24,8 @@ Où :
 
 Structurez au maximum la présentation des données et **optez systématiquement pour le format le plus instantanément lisible.**
 
-
+::hick-law
+::
 
 ## Principe Scientifique
 

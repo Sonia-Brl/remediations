@@ -1,3 +1,8 @@
+---
+title:  5 - Captiver votre audience avec le Hook Canvas
+toc: true
+---
+
 # Captiver votre audience avec le Hook Canvas
 
 ## Concept central
