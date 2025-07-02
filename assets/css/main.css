@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
-
+@import "https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap";
 @theme {
   --font-sans: 'Atkinson Hyperlegible', sans-serif;
 }
@@ -40,6 +40,10 @@ h2{
 
 hr {
 @apply my-8
+}
+
+.main-home{
+ font-family: "Permanent Marker", cursive;
 }
 .module-content strong{
    font-weight: bolder;
