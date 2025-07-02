@@ -41,8 +41,10 @@ Lorsqu’un produit génère des émotions positives, l’engagement utilisateur
 
 L’innovation d’Harry Beck constitue une référence en matière d’UX.
 
- Sa refonte du plan de transport londonien, abandonnant la représentation géographique fidèle au profit d’une schématisation claire et pratique, a révolutionné l’usage des transports urbains. 
+Sa refonte du plan de transport londonien, abandonnant la représentation géographique fidèle au profit d’une schématisation claire et pratique, a révolutionné l’usage des transports urbains. 
  
- Bien qu’initialement contestée, cette vision centrée usager s’est généralisée et a établi les standards cartographiques des réseaux de transport contemporains.
+ ![Visuel de la refonte du plan de transport Londonier d`Harry Beck](/assets/img/ui-ux/metro-londre.png)
+
+Bien qu’initialement contestée, cette vision centrée usager s’est généralisée et a établi les standards cartographiques des réseaux de transport contemporains.
 
 Ce précédent historique illustre le pouvoir transformateur d’une conception privilégiant l’expérience utilisateur sur l’efficacité et l’adoption massive d’un service.

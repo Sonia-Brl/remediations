@@ -34,8 +34,6 @@ toc: true
 - **Analyse concurrentielle** + sondages ciblés
 - **Exemple Netflix** : Analyser le service existant + interroger les utilisateurs sur leurs pratiques (légales et illégales)
 
----
-
 ## 2.4 Principe clé : Viser l’activité, pas l’utilisateur
 
 ### Problème

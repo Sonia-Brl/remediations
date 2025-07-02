@@ -3,6 +3,7 @@ title:  4 - Tests Utilisateurs
 toc: true
 ---
 <p style="color:oklch(70.4% 0.191 22.216); font-weight:bold; text-align:center ">Etape 4 : Entraînez-vous à la pratique de l’UX design</p>
+
 # 4 - Tests Utilisateurs 
 
 ## 4.1 Importance Fondamentale
@@ -21,8 +22,6 @@ toc: true
 
 ❌ **PAS** montrer comment utiliser le produit
 
----
-
 ## 4.2 Bonnes Pratiques
 
 ### Fréquence recommandée
@@ -33,16 +32,12 @@ toc: true
 - **Pas d’intervention** pendant le test (compromet l’impartialité)
 - **Pas d’ego** face aux critiques
 
----
-
 ## 4.3 Principe Clé : On teste le produit, pas les utilisateurs
 
 ### Mentalité à adopter
 - Si les gens n’arrivent pas à utiliser le produit → **Le produit a des défauts**
 - Les utilisateurs ne sont **jamais** incapables
 - Les critiques sont **positives** pour l’amélioration
-
----
 
 ## 4.4 Exemple à ne pas suivre : Silicon Valley
 
@@ -56,8 +51,6 @@ toc: true
 - Impossible d’expliquer à tous les utilisateurs
 - **Ne jamais intervenir** pendant un test
 - Tester avec de **vrais utilisateurs**, pas des experts
-
----
 
 ## 4.5 Conclusion
 Le test utilisateur révèle la vérité sur l’utilisabilité du produit et permet d’itérer vers une solution simple, claire et pratique.

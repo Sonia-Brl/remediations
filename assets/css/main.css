@@ -70,36 +70,92 @@ font-size: 3rem;
   margin-left: 0;
 }
 
-
-.counter {
-    padding: 8px 15px;
-    font-weight: bold;
+/** L’effet Von Restroff **/
+/* Démonstration 1: Liste de produits */
+.product-grid{
+  @apply grid grid-cols-4 gap-6;
+}
+.product-card{
+  @apply col-span-8 md:col-span-4 lg:col-span-2 xl:col-span-1  bg-slate-100 dark:bg-slate-950 flex flex-col items-center justify-center p-6 shadow-lg text-center cursor-pointer; 
+  transition: all 0.3s ease;
+}
+.product-card:hover {
+  @apply translate-y-[-5px];
+}
+.product-card .badge{
+  @apply bg-primary mb-2 text-sm font-bold mb-1 inline-block py-1 px-2;
+}
+.product-card h3 {
+  @apply mb-2 text-2xl;
+}
+.product-card.featured h3{
+  @apply text-white;
+}
+.product-card.featured .price {
+  @apply text-white text-shadow-lg ;
+}
+.product-card .price {
+  @apply font-bold text-2xl text-[#27ae60];
+}
+.product-card.featured {
+  @apply text-white scale-[1.05] bg-radial from-[#ED0040] from-40% to-[#ff6b6b] shadow-xl shadow-[#ff6b6b4d];
+  animation: pulse-glow 2s infinite;
 }
 
-.counter-bad {
-    color: #572120;
-    background:#f7dddc;
+/* Démonstration 2: Formulaire */
+.form-group {
+   @apply mb-2;
 }
 
-.counter-good {
-    color: #1e4c2e;
-    background: #dbf2e3;
-}
-.alert {
-    position: relative;
-    padding: 1rem ;
-    margin-bottom: 2rem ;
-    color: var(--sb-alert-color);
-    background-color: var(--sb-alert-bg);
+/** Animations **/
+
+@keyframes pulse-glow {
+  0%, 100% { 
+    box-shadow: 0 15px 35px rgba(255, 107, 107, 0.3);
+    transform: scale(1.05);
+  }
+  50% { 
+    box-shadow: 0 20px 45px rgba(255, 107, 107, 0.5);
+    transform: scale(1.08);
+  }
 }
 
-.alert-danger {
-    --sb-alert-color:  #572120;
-    --sb-alert-bg: #f7dddc;
-    --sb-alert-border-color:  #572120;
+@keyframes subtle-bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-2px); }
 }
-.alert-success {
-    --sb-alert-color:   #1e4c2e;
-    --sb-alert-bg: #dbf2e3;
-    --sb-alert-border-color:   #1e4c2e;
+
+@keyframes call-to-action {
+    0%, 100% { 
+        transform: scale(1.05);
+    }
+    50% { 
+        transform: scale(1.08);
+    }
+}
+
+/** Responsif **/
+
+@media (max-width: 448px) { 
+  .module-content li{
+    list-style: disc;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+    .nav-demo {
+        flex-direction: column;
+    }
+    
+    .nav-item {
+        border-right: none;
+        border-bottom: 1px solid #bdc3c7;
+    }
+    
+    .form-buttons {
+        flex-direction: column;
+    }
+    
 }

@@ -3,7 +3,8 @@ title:  4 - Recherchez le taux de rétention
 toc: true
 ---
 <p style="color:oklch(70.4% 0.191 22.216); font-weight:bold; text-align:center ">Etape 1 : Les fondamentaux</p>
-# 4 -  Recherchez le taux de rétention
+
+# 4 - Recherchez le taux de rétention
 
 ## 4.1 Évaluation de la performance UX
 

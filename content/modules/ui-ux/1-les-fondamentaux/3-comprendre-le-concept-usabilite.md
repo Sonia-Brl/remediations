@@ -4,7 +4,7 @@ toc: true
 ---
 <p style="color:oklch(70.4% 0.191 22.216); font-weight:bold; text-align:center ">Etape 1 : Les fondamentaux</p>
 
-# 3 Comprendre le concept d’usabilité
+# 3 - Comprendre le concept d’usabilité
 
 ## 3.1 Concept d’usabilité
 
