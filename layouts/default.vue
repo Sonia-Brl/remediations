@@ -7,13 +7,13 @@
             </main>
         </div>
         <div class="container mx-auto bg-slate-800 p-8  m-8">
-      
+            
             <UModal fullscreen >
-<div class="flex justify-center items-center">
-    <p class="text-white mr-8">Petit guide de survie pour les </p>
+                <div class="flex flex-col md:flex-row justify-center items-center">
+                    <p class="text-white md:mr-8">Petit guide de survie pour les </p>
                     <UButton label="Cerveau en détresse" color="primary"class="scrib text-xl" size="xl" trailing-icon="i-lucide-arrow-right" />
-                
-</div>
+                    
+                </div>
                 <template #body>
                     <div class="h-full ">
                         <h1>Les Montagnes Russes de l'Apprentissage : Guide de Survie pour Cerveaux en Détresse</h1>
