@@ -14,40 +14,25 @@ L’esprit humain regroupe instinctivement les éléments visuels qui sont dispo
 ## L’application
 Organisez votre interface par zones distinctes en rassemblant dans une même section les éléments qui sont logiquement liés.
 
-## La loi en detail 
+## L'explication
 Cette loi stipule que les éléments proches spatialement sont perçus comme appartenant au même groupe. Notre cerveau créé automatiquement des associations visuelles basées sur la distance entre les éléments.
 
 
-**Bénéfices UX :** 
-- **Améliore la lisibilité, réduit la charge cognitive, facilite la compréhension et accélère la navigation.**
-- **La loi de proximité est fondamentale pour créer des interfaces claires et logiques !**
 
-## **Techniques utilisées :**
 
+## Les exemples
+::proximity-law
+::
+
+## Techniques utilisées 
 - **Groupement visuel** avec des arrière-plans colorés
 - **Espacement cohérent** entre les groupes d’éléments
 - **Alignement** pour créer des liens visuels
 - **Sections distinctes** avec bordures et couleurs
 - **Hiérarchie spatiale** pour guider l’œil
 
-
-## **Impact UX :**
-
+## Impact UX
 - **Meilleure lisibilité** des interfaces
 - **Navigation plus intuitive**
 - **Réduction des erreurs** utilisateur
 - **Compréhension plus rapide** de l’organisation
-
-
-
-## Exemples
-::proximity-law
-::
-
-## Principe démontré :
-
-Chaque exemple montre comment :
-- **Les éléments proches** sont naturellement perçus comme liés
-- **Le regroupement logique** améliore la compréhension
-- **L’espacement stratégique** crée une hiérarchie claire
-- **L’organisation spatiale** réduit la charge cognitive

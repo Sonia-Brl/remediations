@@ -2,14 +2,15 @@
 title:  5 - Captiver votre audience avec le Hook Canvas
 toc: true
 ---
+<p style="color:oklch(70.4% 0.191 22.216); font-weight:bold; text-align:center ">Etape 1 : Les fondamentaux</p>
 
-# Captiver votre audience avec le Hook Canvas
+# 5 - Captiver votre audience avec le Hook Canvas
 
-## Concept central
+## 5.1 Concept central
 
 Le **Hook Canvas**, conçu par Nir Eyal (Stanford), démontre la méthode pour établir une interaction « intensive » avec les usagers. Cette approche organise le parcours utilisateur en **4 étapes récurrentes** constituant un cycle d’implication, susceptible de créer des automatismes comportementaux, pouvant aller jusqu’à la dépendance.
 
-## Les 4 étapes du processus
+## 5.2 Les 4 étapes du processus
 
 ### Étape 1 : Le stimulus déclencheur
 
@@ -49,12 +50,12 @@ L’**incertitude** entretient l’implication. L’usager ignore ce qu’il dé
 
 Cet engagement accroît les probabilités de gratifications ultérieures et nourrit les futurs stimuli de retour.
 
-## Considérations déontologiques
+## 5.3 Considérations déontologiques
 
 Cette méthode transpose les sciences du comportement dans la conception produit, soulevant des interrogations sur l’influence exercée. Selon l’application, elle peut engendrer des dynamiques **bénéfiques ou néfastes**.
 
 Les créateurs portent une **obligation morale** vis-à-vis de leurs usagers et doivent concilier besoins utilisateurs et impératifs économiques.
 
-## Exemples d’implémentation
+## 5.4 Exemples d’implémentation
 
 Facebook, YouTube et Instagram exploitent habilement cette méthodologie pour préserver l’adhésion utilisateur et fonder leur réussite commerciale sur ces mécanismes répétitifs.

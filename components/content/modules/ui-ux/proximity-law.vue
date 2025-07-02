@@ -1,10 +1,11 @@
 <template>
     <div class="container">
         <!-- Démonstration : Menu navigation -->
+         <div class="my-8 bg-slate-50 dark:bg-slate-700 p-4">
         <h3>Exemple : Formulaire de contact </h3>
         <p>Comparaison entre champs dispersés vs champs groupés par catégorie</p>
-        <div class="flex">
-            <div class="w-100 flex-auto md:w-48 p-4 m-4 border border-2 border-red-700">
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+            <div class="col-span-1 p-4 m-4 border border-2 border-red-700">
                 <div class="bg-red-700 p-4 text-white flex items-center">
                     <UIcon name="i-lucide-octagon-x" class="size-8 " />
                     <div class="ml-4">
@@ -12,80 +13,80 @@
                         <span>Les champs sont dispersés sans logique apparente</span>
                     </div>
                 </div>
-                <div class="bg-white p-4 bad-form shadow-lg">
-                    <div class="form-group">
+                <div class="bg-default  mt-4 p-4 shadow-lg">
+                    <div class="form-group mt-2">
                         <label>Prénom</label>
-                        <input type="text" placeholder="Votre prénom">
+                        <input type="text" placeholder="Votre prénom" class="border">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group mt-2">
                         <label>Email</label>
-                        <input type="email" placeholder="votre@email.com">
+                        <input type="email" placeholder="votre@email.com" class="border">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group mt-2">
                         <label>Nom</label>
-                        <input type="text" placeholder="Votre nom">
+                        <input type="text" placeholder="Votre nom" class="border">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group mt-2">
                         <label>Téléphone</label>
-                        <input type="tel" placeholder="06 12 34 56 78">
+                        <input type="tel" placeholder="06 12 34 56 78" class="border">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group mt-2">
                         <label>Message</label>
-                        <textarea placeholder="Votre message"></textarea>
+                        <textarea placeholder="Votre message" class="border"></textarea>
                     </div>
                 </div>
             </div>
-            <div class="w-100 flex-auto md:w-48 p-4 m-4 border border-2 border-emerald-700">
+            <div class="col-span-1 p-4 m-4 border border-2 border-emerald-700">
                 <div class="bg-emerald-700  p-4 text-white flex items-center">
                     <UIcon name="i-lucide-circle-check-big" class="size-8 " />
                     <div class="ml-4">
                         <span class="font-bold">Bon exemple !</span><br>
                         <span>Les champs sont regroupés par catégorie logique</span>
                     </div>
-                    
-                    
                 </div>
-                <div class="bg-white p-4 good-form shadow-lg">
-                    <div class="form-group-info">
-                        <div class="section-title">Informations personnelles</div>
-                        <div class="form-group">
+                <div class="bg-default p-4 good-form shadow-lg mt-4">
+                    <div class="form-group-info bg-slate-100 dark:bg-slate-950">
+                        <div class="font-bold">Informations personnelles</div>
+                        <div class="form-group mt-2">
                             <label>Prénom</label>
-                            <input type="text" placeholder="Votre prénom">
+                            <input type="text" placeholder="Votre prénom" class="border">
                         </div>
-                        <div class="form-group">
+                        <div class="form-group mt-2">
                             <label>Nom</label>
-                            <input type="text" placeholder="Votre nom">
+                            <input type="text" placeholder="Votre nom" class="border">
                         </div>
                     </div>
                     
-                    <div class="form-group-info">
-                        <div class="section-title">Contact</div>
-                        <div class="form-group">
+                    <div class="form-group-info bg-slate-100 dark:bg-slate-950">
+                        <div class="font-bold">Contact</div>
+                        <div class="form-group mt-2">
                             <label>Email</label>
-                            <input type="email" placeholder="votre@email.com">
+                            <input type="email" placeholder="votre@email.com" class="border">
                         </div>
-                        <div class="form-group">
+                        <div class="form-group mt-2">
                             <label>Téléphone</label>
-                            <input type="tel" placeholder="06 12 34 56 78">
+                            <input type="tel" placeholder="06 12 34 56 78" class="border">
                         </div>
                     </div>
                     
-                    <div class="form-group-info">
-                        <div class="section-title">Message</div>
-                        <div class="form-group">
+                    <div class="form-group-info bg-slate-100 dark:bg-slate-950">
+                        <div class="font-bold">Message</div>
+                        <div class="form-group mt-2">
                             <label>Votre message</label>
-                            <textarea placeholder="Décrivez votre demande"></textarea>
+                            <textarea placeholder="Décrivez votre demande" class="border"></textarea>
                         </div>
                     </div>
                 </div>
                 
             </div>
         </div>
-             <!-- Démonstration 2 : Liste de produits -->
+        </div>
+        <!-- Démonstration 2 : Liste de produits -->
+          <div class="my-8 bg-slate-50 dark:bg-slate-700 p-4">
         <h3>Exemple : Liste de produits </h3>
         <p>Layout vertical désordonné vs alignement horizontal cohérent</p>
-        <div class="flex">
-            <div class="w-100 flex-auto md:w-48 p-4 m-4 border border-2 border-red-700">
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+            <div class="col-span-1 p-4 m-4 border border-2 border-red-700">
                 <div class="bg-red-700 p-4 text-white flex items-center">
                     <UIcon name="i-lucide-octagon-x" class="size-8 " />
                     <div class="ml-4">
@@ -94,8 +95,8 @@
                     </div>
                 </div>
                 <div class="p-4 mt-4">
-                     <div class="flex flex-col flex flex-col items-center justify-center">
-                        <div class="w-full text-center p-4 flex flex-col items-center justify-center my-4 shadow-lg">
+                    <div class="flex flex-col flex flex-col items-center justify-center">
+                        <div class="w-full text-center p-4 flex flex-col items-center justify-center my-4 bg-slate-100 dark:bg-slate-950 shadow-lg">
                             <div class="product-image">📱</div>
                             <div class="product-details">
                                 <div class="font-bold">iPhone 15 Pro</div>
@@ -103,7 +104,7 @@
                             </div>
                             <div class="product-price">1199€</div>
                         </div>
-                        <div class="w-full text-center p-4 flex flex-col items-center justify-center my-4 shadow-lg">
+                        <div class="w-full text-center p-4 flex flex-col items-center justify-center my-4 shadow-lg bg-slate-100 dark:bg-slate-950">
                             <div class="product-image">💻</div>
                             <div class="product-details">
                                 <div class="font-bold">MacBook Air M2</div>
@@ -114,7 +115,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w-100 flex-auto md:w-48 p-4 m-4 border border-2 border-emerald-700">
+            <div class="col-span-1 p-4 m-4 border border-2 border-emerald-700">
                 <div class="bg-emerald-700  p-4 text-white flex items-center">
                     <UIcon name="i-lucide-circle-check-big" class="size-8 " />
                     <div class="ml-4">
@@ -122,9 +123,9 @@
                         <span>Image, détails et prix sont alignés et groupés</span>
                     </div>
                 </div>
-                <div class="bg-white p-4 good-form shadow-lg">
-                         <div class="flex-col  good-product">
-                        <div class="product-item">
+                <div class="mt-4 p-4 good-form ">
+                    <div class="flex-col mt-4  ">
+                        <div class="product-item bg-slate-100 dark:bg-slate-950 mt-4 shadow-lg">
                             <div class="product-image">📱</div>
                             <div class="product-details">
                                 <div class="font-bold">iPhone 15 Pro</div>
@@ -132,7 +133,7 @@
                             </div>
                             <div class="product-price">1199€</div>
                         </div>
-                        <div class="product-item">
+                        <div class="product-item bg-slate-100 dark:bg-slate-950 mt-4 shadow-lg">
                             <div class="product-image">💻</div>
                             <div class="product-details">
                                 <div class="font-bold">MacBook Air M2</div>
@@ -144,53 +145,56 @@
                 </div>
             </div>
         </div>
-  <!-- Démonstration 3 : Profil utilisateur -->
-             <h3>Exemple : Profil utilisateur </h3>
-        <p>Éléments éparpillés vs avatar et infos regroupés logiquement</p>
-        <div class="flex">
-            <div class="w-100 flex-auto md:w-48 p-4 m-4 border border-2 border-red-700">
-                <div class="bg-red-700 p-4 text-white flex items-center">
-                    <UIcon name="i-lucide-octagon-x" class="size-8 " />
-                    <div class="ml-4">
-                        <span class="font-bold">Mauvais exemple !</span><br>
-                        <span>Éléments empilés sans cohérence horizontale</span>
-                    </div>
-                </div>
-                <div class="bg-white p-4 bad-form shadow-lg">
-                 <div class="bg-white  profile-demo bad-profile">
-                        <div class="profile-avatar">DL</div>
-                        <div class="profile-info">
-                            <div class="profile-name">Dave Loper</div>
-                            <div class="profile-role">Développeur Full-Stack</div>
-                        </div>
-                        <div class="profile-stats">
-                            <div class="stat-item">
-                                <div class="stat-number">127</div>
-                                <div class="stat-label">Projets</div>
-                            </div>
-                            <div class="stat-item">
-                                <div class="stat-number">1.2k</div>
-                                <div class="stat-label">Followers</div>
-                            </div>
-                            <div class="stat-item">
-                                <div class="stat-number">89</div>
-                                <div class="stat-label">Following</div>
-                            </div>
+        </div>
+        
+        <!-- Démonstration 3 : Profil utilisateur -->
+        <div class="my-8 bg-slate-50 dark:bg-slate-700 p-4">
+            <h3>Exemple : Profil utilisateur </h3>
+            <p>Éléments éparpillés vs avatar et infos regroupés logiquement</p>
+            <div class="grid grid-cols-1 lg:grid-cols-2">
+                <div class="col-span-1 p-4 m-4 border border-2 border-red-700">
+                    <div class="bg-red-700 p-4 text-white flex items-center">
+                        <UIcon name="i-lucide-octagon-x" class="size-8 " />
+                        <div class="ml-4">
+                            <span class="font-bold">Mauvais exemple !</span><br>
+                            <span>Éléments empilés sans cohérence horizontale</span>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="w-100 flex-auto md:w-48 p-4 m-4 border border-2 border-emerald-700">
-                <div class="bg-emerald-700  p-4 text-white flex items-center">
-                    <UIcon name="i-lucide-circle-check-big" class="size-8 " />
-                    <div class="ml-4">
-                        <span class="font-bold">Bon exemple !</span><br>
-                        <span>Image, détails et prix sont alignés et groupés</span>
+                    <div class="p-4 bad-form ">
+                        <div class="bg-slate-100 dark:bg-slate-950 profile-demo bad-profile shadow-lg">
+                            <div class="profile-avatar bg-primary">DL</div>
+                            <div class="profile-info">
+                                <div class="profile-name">Dave Loper</div>
+                                <div class="profile-role">Développeur Full-Stack</div>
+                            </div>
+                            <div class="profile-stats">
+                                <div class="stat-item">
+                                    <div class="stat-number">127</div>
+                                    <div class="stat-label">Projets</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-number">1.2k</div>
+                                    <div class="stat-label">Followers</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-number">89</div>
+                                    <div class="stat-label">Following</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="bg-white p-4 good-form shadow-lg">
-                         <div class="bg-white  profile-demo good-profile">
-                            <div class="profile-avatar p-4">DL</div>
+                <div class="col-span-1 p-4 m-4 border border-2 border-emerald-700">
+                    <div class="bg-emerald-700  p-4 text-white flex items-center">
+                        <UIcon name="i-lucide-circle-check-big" class="size-8 " />
+                        <div class="ml-4">
+                            <span class="font-bold">Bon exemple !</span><br>
+                            <span>Image, détails et prix sont alignés et groupés</span>
+                        </div>
+                    </div>
+                    <div class="p-4 good-form">
+                        <div class="bg-slate-100 dark:bg-slate-950 profile-demo good-profile shadow-lg">
+                            <div class="profile-avatar bg-primary p-4">DL</div>
                             <div class="profile-main">
                                 <div class="profile-info">
                                     <div class="profile-name">Dave Loper</div>
@@ -199,19 +203,20 @@
                                 <div class="profile-stats">
                                     <div class="stat-item">
                                         <div class="stat-number">127</div>
-                                        <div class="stat-label">Projets</div>
+                                        <div class="stat-label"><small>Projets</small></div>
                                     </div>
                                     <div class="stat-item">
                                         <div class="stat-number">1.2k</div>
-                                        <div class="stat-label">Followers</div>
+                                        <div class="stat-label"><small>Followers</small></div>
                                     </div>
                                     <div class="stat-item">
                                         <div class="stat-number">89</div>
-                                        <div class="stat-label">Following</div>
+                                        <div class="stat-label"><small>Following</small></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -219,84 +224,15 @@
 </template>
 
 <style scoped>
-.form-group {
-    display: flex;
-    flex-direction: column;
-}
-
-.form-group label {
-    font-weight: 500;
-    color: #2c3e50;
-    margin-bottom: 5px;
-}
-
-.form-group input, .form-group textarea {
-    padding: 10px;
-    border: 2px solid #e9ecef;
-    font-size: 1em;
-    background-color: #fff;
-}
-
-.form-group input:focus, .form-group textarea:focus {
-    outline: none;
-    border-color: #151442;
-}
-
-/* Mauvais exemple - éléments dispersés */
-.bad-form .form-group {
-    margin-bottom: 30px;
-}
-
-/* Bon exemple - éléments groupés */
-.good-form .personal-info {
-    background: rgba(21, 20, 66, 0.1);
-    padding: 20px;
-    margin-bottom: 20px;
-    border-left: 4px solid #151442;
-}
-
-.good-form .contact-info {
-    background: rgba(21, 20, 66, 0.1);
-    padding: 20px;
-    margin-bottom: 20px;
-    border-left: 4px solid #151442;
-}
-
-.good-form .message-info {
-    background: rgba(21, 20, 66, 0.1);
-    padding: 20px;
-    margin-bottom: 20px;
-    border-left: 4px solid #151442;
-}
-
-.section-title {
-    font-size: 1.1em;
-    font-weight: bold;
-    color: #151442;
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-
-
 /** Démonstration 1 : Formulaire de contact **/
 .form-group input, .form-group textarea {
     padding: 10px;
-    border: 2px solid #e9ecef;
     width: 100%;
-    
 }
 .formula,
 .form-group-info{
-    background: rgba(21, 20, 66, 0.1);
     padding: 20px;
     margin-bottom: 20px;
-    border-left: 4px solid #151442;
-}
-input{
-    background-color: #fff;
 }
 
 
@@ -308,11 +244,9 @@ input{
 .profile-avatar {
     width: 80px;
     height: 80px;
-    background: #151442;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
     font-size: 2em;
     font-weight: bold;
     margin-bottom: 15px;
@@ -327,11 +261,9 @@ input{
 .profile-name {
     font-size: 1.4em;
     font-weight: bold;
-    color: #151442;
 }
 
 .profile-role {
-    color: #151442;
     font-size: 1.1em;
 }
 
@@ -348,12 +280,10 @@ input{
 .stat-number {
     font-size: 1.3em;
     font-weight: bold;
-    color: #151442;
 }
 
 .stat-label {
     font-size: 0.9em;
-    color: #151442;
 }
 
 /* Mauvais exemple profil - éléments dispersés */
@@ -384,13 +314,9 @@ input{
     gap: 20px;
 }
 
-.good-profile .profile-main {
-    flex: 1;
-}
 
-.good-profile .profile-avatar {
-    margin: 0;
-}
+
+
 
 
 
@@ -407,7 +333,6 @@ input{
     display: flex;
     align-items: center;
     padding: 15px;
-    background: white;
 }
 
 .product-image {

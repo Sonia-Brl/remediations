@@ -3,6 +3,7 @@ title: 2 - Distinguer l’expérience utilisateur de l’interface utilisateur
 toc: true
 ---
 
+<p style="color:oklch(70.4% 0.191 22.216); font-weight:bold; text-align:center ">Etape 1 : Les fondamentaux</p>
 
 # 2 - Distinguer l’expérience utilisateur de l’interface utilisateur
 
@@ -13,8 +14,6 @@ toc: true
 
 La collaboration étroite entre ces deux disciplines en conception produit génère souvent des amalgames conceptuels.
 
---- 
-
 ## 2.2 Interconnexion UX/UI
 
 **L’UI représente la dimension perceptible de l’UX**. Cette articulation s’éclaire à travers l’analogie de l’iceberg :
@@ -22,12 +21,9 @@ La collaboration étroite entre ces deux disciplines en conception produit gén�
 * **L’UI** = surface visible : éléments que l’utilisateur perçoit sensoriellement
 * **L’UX** = structure complète : fusion des composantes apparentes ET sous-jacentes qui déterminent le vécu utilisateur
 
----
 ## 2.3 L’UI comme composante de l’UX
 
 L’interface utilisateur constitue une dimension fondamentale mais partielle de l’expérience utilisateur totale.
-
----
 
 ## 2.4 Illustration pratique : L’automobile Porsche
 
@@ -44,8 +40,6 @@ L’interface utilisateur constitue une dimension fondamentale mais partielle de
 * Dimension esthétique et symbolique
 * Réactivité mécanique (système de freinage, assistance directionnelle)
 * Plaisir de conduite
-
----
 
 ## 2.5 Concept fondamental
 

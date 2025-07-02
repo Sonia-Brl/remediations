@@ -1,34 +1,33 @@
 <template>
-    <div class="">
-        <!-- Démonstration : Menu navigation -->
-        <h2>Exemple : Menu de navigation</h2>
-        <div class="flex">
-            
-            <div class="w-100 flex-auto md:w-48 p-4 m-4">
-                <div class="alert alert-danger flex items-center">
+    <!-- Démonstration : Menu navigation -->
+    <div class="my-8 bg-slate-50 dark:bg-slate-700 p-4">
+        <h3> Menu de navigation</h3>
+        <div class="grid grid-cols-1 lg:grid-cols-2"> 
+            <div class="col-span-1 p-4 m-4 border border-2 border-red-700">
+                <div class="bg-red-700 p-4 text-white flex items-center">
                     <UIcon name="i-lucide-octagon-x" class="size-8 " />
                     <div class="ml-4">
-                        <span>Mauvais exemple !</span><br>
+                        <span class="font-bold">Mauvais exemple !</span><br>
                         <span>Beaucoup trop d'options</span>
                     </div>
                 </div>
-                <div class="bg-white p-5">
-                    <div class="counter counter-bad text-center">17 éléments</div>
+                <div class="p-5">
+                    <div class="bg-red-700 p-2 text-white text-center font-bold">17 éléments</div>
                     <div class="flex">
                         <img :src="badOption" alt="Visuel de ce qui ne faut pas faire"  />
                     </div>
                 </div>
             </div>
-            <div class="w-100 flex-auto md:w-48 p-4 m-4">
-                <div class="alert alert-success flex items-center">
+            <div class="col-span-1 p-4 m-4 border border-2 border-emerald-700">
+                <div class="bg-emerald-700 p-4 text-white flex items-center">
                     <UIcon name="i-lucide-circle-check-big" class="size-8 " />
                     <div class="ml-4">
-                        <span>Bon exemple !</span><br>
+                        <span class="font-bold">Bon exemple !</span><br>
                         <span>Nombre d'options limités</span>
                     </div>
                 </div>
-                <div class="bg-white p-5">
-                    <div class="counter counter-good text-center">7 élément</div>
+                <div class=" p-5">
+                    <div class="bg-emerald-700 p-2 text-white text-center font-bold">7 élément</div>
                     <div class="flex">
                         <img :src="goodOption" alt="Visuel de ce qui ne faut pas faire"  />
                     </div>

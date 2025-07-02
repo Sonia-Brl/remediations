@@ -88,17 +88,19 @@ const items = ref<NavigationMenuItem[][]>([
     label: 'Incarnez l’éthique de l’UX designer',
     icon: 'i-lucide-corner-down-right',
     class: childLabelFontSize,
-    to: '/modules/ui-ux/2-focus-utilisateur/1-apprenez-a-vous-centrer-sur-l-utilisateur',
-  },{
-    label: 'Interview de Mathieu Klein, UX Designer chez OpenClassrooms',
+    to: '/modules/ui-ux/3-le-metier-d-ux-designer/1-incarnez-l-ethique-de-l-ux-designer',
+  },
+  {
+    label: 'Interview UX Designer',
     icon: 'i-lucide-corner-down-right',
     class: childLabelFontSize,
-    to: '/modules/ui-ux/2-focus-utilisateur/2-la-simplicite-en-conception-de-produit',
-  },{
-    label: 'Exercice pratique - Création d’un persona TikTok',
+    to: '/modules/ui-ux/3-le-metier-d-ux-designer/2-interview-de-mathieu-klein-ux-designer-chez-openclassrooms',
+  },
+  {
+    label: 'Exercice pratique - Création d’un persona',
     icon: 'i-lucide-corner-down-right',
     class: childLabelFontSize,
-    to: '/modules/ui-ux/2-focus-utilisateur/3-concevoir-pour-l-experience-mobile',
+    to: '/modules/ui-ux/3-le-metier-d-ux-designer/3-exercice-pratique-creation-d-un-persona-tiktok',
   }
   ]
 }, 
@@ -110,24 +112,33 @@ const items = ref<NavigationMenuItem[][]>([
     label: 'Design Thinking en UX Design',
     icon: 'i-lucide-corner-down-right',
     class: childLabelFontSize,
-    to: '/modules/ui-ux/2-focus-utilisateur/1-apprenez-a-vous-centrer-sur-l-utilisateur',
+    to: '/modules/ui-ux/4-entrainez-vous-a-la-pratique-de-l-ux-design/1-integrez-l-approche-design-thinking',
   },{
     label: 'Recherche Utilisateur',
     icon: 'i-lucide-corner-down-right',
     class: childLabelFontSize,
-    to: '/modules/ui-ux/2-focus-utilisateur/2-la-simplicite-en-conception-de-produit',
+    to: '/modules/ui-ux/4-entrainez-vous-a-la-pratique-de-l-ux-design/2-recherche-utilisateur',
   },{
     label: 'Bonnes Pratiques de Prototypage ',
     icon: 'i-lucide-corner-down-right',
     class: childLabelFontSize,
-    to: '/modules/ui-ux/2-focus-utilisateur/3-concevoir-pour-l-experience-mobile',
+    to: '/modules/ui-ux/4-entrainez-vous-a-la-pratique-de-l-ux-design/3-appliquez-les-bonnes-pratiques-de-prototypage',
   }
  ,{
     label: 'Tests Utilisateurs',
     icon: 'i-lucide-corner-down-right',
     class: childLabelFontSize,
-    to: '/modules/ui-ux/2-focus-utilisateur/3-concevoir-pour-l-experience-mobile',
+    to: '/modules/ui-ux/4-entrainez-vous-a-la-pratique-de-l-ux-design/4-testez-regulierement-vos-prototypes',
   }
+  ,{
+    label: 'Guide pratique des tests utilisateurs',
+    icon: 'i-lucide-corner-down-right',
+    class: childLabelFontSize,
+    to: '/modules/ui-ux/4-entrainez-vous-a-la-pratique-de-l-ux-design/5-guide-sur-les-tests-utilisateurs',
+  }
+
+ 
+
   ]
 },
 {
@@ -160,38 +171,7 @@ const items = ref<NavigationMenuItem[][]>([
     class: childLabelFontSize,
     to: '/modules/ui-ux/lois/effet-von-restorff',
   }]
-},
-{
-  label: 'Charte graphique',
-  icon: 'i-lucide-book-open',
-  class: mainLabelFontSize,
-  children: [{
-    label: 'Qu’est-ce que l’UX ?',
-    icon: 'i-lucide-corner-down-right',
-    class: childLabelFontSize,
-    to: '/',
-  },{
-    label: 'Distinguer l’UX de l’UI',
-    icon: 'i-lucide-corner-down-right',
-    class: childLabelFontSize,
-    to: '/',
-  },{
-    label: 'Concept d’usabilité',
-    icon: 'i-lucide-corner-down-right',
-    class: childLabelFontSize,
-    to: '/',
-  },{
-    label: 'Le taux de rétention',
-    icon: 'i-lucide-corner-down-right',
-    class: childLabelFontSize,
-    to: '/',
-  },{
-    label: 'Le Hook Canvas',
-    icon: 'i-lucide-corner-down-right',
-    class: childLabelFontSize,
-    to: '/',
-  }]
-},
+}
 ]
 ])
 </script>

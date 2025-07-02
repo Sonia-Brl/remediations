@@ -2,10 +2,10 @@
 title:  4 - Recherchez le taux de rétention
 toc: true
 ---
-
+<p style="color:oklch(70.4% 0.191 22.216); font-weight:bold; text-align:center ">Etape 1 : Les fondamentaux</p>
 # 4 -  Recherchez le taux de rétention
 
-## Évaluation de la performance UX
+## 4.1 Évaluation de la performance UX
 
 L’efficacité d’une expérience utilisateur s’apprécie selon deux méthodologies distinctes :
 
@@ -17,13 +17,13 @@ L’efficacité d’une expérience utilisateur s’apprécie selon deux méthod
 * Approche plus tangible et démonstrative
 * Métriques chiffrées telles que le taux de fidélisation
 
-## La fidélisation : métrique centrale
+## 4.2 La fidélisation : métrique centrale
 
 **Définition** : Proportion d’usagers maintenant une utilisation assidue d’une plateforme ou application **au-delà de 3 mois** suivant leur premier contact.
 
 Cette mesure représente un baromètre essentiel pour jauger l’attachement et l’implication des utilisateurs.
 
-## Standards de fidélisation
+## 4.3 Standards de fidélisation
 
 **Plateformes performantes** :
 * **Facebook** : 98%
@@ -36,7 +36,7 @@ Ces services de communication dominent grâce à la réactivité des échanges e
 * **Moyenne sectorielle** des applications mobiles : 11%
 * **Critère d’excellence** : supérieur à 30%
 
-## Modèle exemplaire : YouTube
+## 4.4 Modèle exemplaire : YouTube
 
 YouTube démontre une fidélisation optimale via ses dispositifs d’accroche :
 * Transition fluide entre contenus
@@ -45,6 +45,6 @@ YouTube démontre une fidélisation optimale via ses dispositifs d’accroche :
 
 Les usagers dépassent fréquemment leur temps d’utilisation initial, consommant des contenus en chaîne de manière quasi-inconsciente.
 
-## Enseignement principal
+## 4.5 Enseignement principal
 
 Le taux de fidélisation témoigne de l’aptitude d’un service à établir une relation pérenne avec sa base utilisateur, formant un baromètre probant de l’excellence de l’expérience proposée.

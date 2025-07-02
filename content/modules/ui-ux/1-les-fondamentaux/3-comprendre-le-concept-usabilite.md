@@ -2,6 +2,7 @@
 title: 3 - Comprendre le concept d’usabilitéutilisateur
 toc: true
 ---
+<p style="color:oklch(70.4% 0.191 22.216); font-weight:bold; text-align:center ">Etape 1 : Les fondamentaux</p>
 
 # 3 Comprendre le concept d’usabilité
 
@@ -13,13 +14,9 @@ L’**usabilité** (adaptation française d’** »usability »**) représente
 * Anglais : **usability** = **use** (utilisation) + **ability** (aptitude)
 * Français : **usabilité** = **usage** + **compétence**
 
----
-
 ## 3.2 Cadre normatif
 
 La **norme ISO 9241-11** définit l’usabilité comme * »la mesure dans laquelle un produit peut être employé par des usagers spécifiques pour accomplir des objectifs déterminés avec performance, rendement et contentement, dans un environnement d’usage défini »*.
-
----
 
 ## 3.3 Caractéristiques d’usabilité
 
@@ -32,8 +29,6 @@ Un produit fonctionnel doit présenter les qualités suivantes :
 * **Épuré**
 
 La finalité consiste à **accompagner et orienter l’usager** dans la manipulation du produit.
-
----
 
 ## 3.4 Différenciation usabilité/UX
 
@@ -49,8 +44,6 @@ La finalité consiste à **accompagner et orienter l’usager** dans la manipula
 * Sous-ensemble de la conception UX
 * Finalité : faciliter l’accomplissement de tâches par les usagers
 * Orientation davantage opérationnelle
-
----
 
 ## 3.5 Notion essentielle
 

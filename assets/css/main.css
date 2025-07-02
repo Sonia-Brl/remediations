@@ -7,15 +7,31 @@
 body{
   font-size: 1.2rem;
 }
-h1,h2,h3,h4,h5{
+h1,h2{
   font-family: 'Anton';
   letter-spacing: 0.1rem;
-  margin: 1rem 0;
+  margin-top: 2rem;
+}
+h1,h2,h3,h4,h5{
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
+h4,h5{
+   margin-top: 2rem;
+}
+
+h3{
+   margin-top: 1.5rem;
+
+}
 h1{
   margin-bottom: 2rem;
   @apply text-4xl;
+}
+
+h2{
+  font-size: 1.6rem;
 }
  img:first-child {
   margin: 2rem auto;
@@ -31,10 +47,17 @@ hr {
 .module-content p{
    @apply my-4
 }
-
+.module-content h2{
+   @apply pt-4 border-b 
+}
 .module-content li{
   list-style: disc;
   margin-left: 4rem;
+}
+.module-content>h1{
+text-align: center;
+font-size: 3rem;
+
 }
 
 .modules-navigation li{
