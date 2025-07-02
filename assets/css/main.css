@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
-@import "https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap";
+
 @theme {
   --font-sans: 'Atkinson Hyperlegible', sans-serif;
 }
