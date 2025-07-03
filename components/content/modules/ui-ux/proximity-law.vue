@@ -8,7 +8,7 @@
             <div class="col-span-1 border border-2 border-red-700">
                 <SampleAlert wrapper-class="bg-red-700" icon-name="i-lucide-octagon-x" title="Mauvais exemple !" desc="Les champs sont dispersés sans logique apparente" />
 
-                <div class="bg-default  mt-4 p-4 shadow-lg">
+                <div class="bg-default  mt-4 p-4">
                     <div class="form-group mt-2">
                         <label>Prénom</label>
                         <input type="text" placeholder="Votre prénom" class="border">
@@ -33,7 +33,7 @@
             </div>
             <div class="col-span-1 border border-2 border-emerald-700">
                  <SampleAlert wrapper-class="bg-emerald-700" icon-name="i-lucide-circle-check-big" title="Bon exemple !" desc="Les champs sont regroupés par catégorie logique" />
-                <div class="bg-default p-4 good-form shadow-lg mt-4">
+                <div class="bg-default p-4 good-form mt-4">
                     <div class="form-group-info bg-slate-100 dark:bg-slate-950">
                         <div class="font-bold">Informations personnelles</div>
                         <div class="form-group mt-2">
