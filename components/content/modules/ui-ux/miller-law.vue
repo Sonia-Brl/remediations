@@ -4,13 +4,7 @@
         <h3> Menu de navigation</h3>
         <div class="grid grid-cols-1 lg:grid-cols-2"> 
             <div class="col-span-1 p-4 m-4 border border-2 border-red-700">
-                <div class="bg-red-700 p-4 text-white flex items-center">
-                    <UIcon name="i-lucide-octagon-x" class="size-8 " />
-                    <div class="ml-4">
-                        <span class="font-bold">Mauvais exemple !</span><br>
-                        <span>Beaucoup trop d'options</span>
-                    </div>
-                </div>
+                <SampleAlert wrapper-class="bg-red-700" icon-name="i-lucide-octagon-x" title="Mauvais exemple !" desc="Beaucoup trop d'options" />
                 <div class="p-5">
                     <div class="bg-red-700 p-2 text-white text-center font-bold">17 éléments</div>
                     <div class="flex">
@@ -19,13 +13,7 @@
                 </div>
             </div>
             <div class="col-span-1 p-4 m-4 border border-2 border-emerald-700">
-                <div class="bg-emerald-700 p-4 text-white flex items-center">
-                    <UIcon name="i-lucide-circle-check-big" class="size-8 " />
-                    <div class="ml-4">
-                        <span class="font-bold">Bon exemple !</span><br>
-                        <span>Nombre d'options limités</span>
-                    </div>
-                </div>
+                <SampleAlert wrapper-class="bg-emerald-700" icon-name="i-lucide-circle-check-big" title="Bon exemple !" desc="Nombre d'options limités" />
                 <div class=" p-5">
                     <div class="bg-emerald-700 p-2 text-white text-center font-bold">7 élément</div>
                     <div class="flex">

@@ -1,18 +1,13 @@
 <template>
     <div class="container">
         <!-- Démonstration : Menu navigation -->
-         <div class="my-8 bg-slate-50 dark:bg-slate-700 p-4">
+         <div class="my-8">
         <h3>Exemple : Formulaire de contact </h3>
         <p>Comparaison entre champs dispersés vs champs groupés par catégorie</p>
-        <div class="grid grid-cols-1 lg:grid-cols-2">
-            <div class="col-span-1 p-4 m-4 border border-2 border-red-700">
-                <div class="bg-red-700 p-4 text-white flex items-center">
-                    <UIcon name="i-lucide-octagon-x" class="size-8 " />
-                    <div class="ml-4">
-                        <span class="font-bold">Mauvais exemple !</span><br>
-                        <span>Les champs sont dispersés sans logique apparente</span>
-                    </div>
-                </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            <div class="col-span-1 border border-2 border-red-700">
+                <SampleAlert wrapper-class="bg-red-700" icon-name="i-lucide-octagon-x" title="Mauvais exemple !" desc="Les champs sont dispersés sans logique apparente" />
+
                 <div class="bg-default  mt-4 p-4 shadow-lg">
                     <div class="form-group mt-2">
                         <label>Prénom</label>
@@ -36,14 +31,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-span-1 p-4 m-4 border border-2 border-emerald-700">
-                <div class="bg-emerald-700  p-4 text-white flex items-center">
-                    <UIcon name="i-lucide-circle-check-big" class="size-8 " />
-                    <div class="ml-4">
-                        <span class="font-bold">Bon exemple !</span><br>
-                        <span>Les champs sont regroupés par catégorie logique</span>
-                    </div>
-                </div>
+            <div class="col-span-1 border border-2 border-emerald-700">
+                 <SampleAlert wrapper-class="bg-emerald-700" icon-name="i-lucide-circle-check-big" title="Bon exemple !" desc="Les champs sont regroupés par catégorie logique" />
                 <div class="bg-default p-4 good-form shadow-lg mt-4">
                     <div class="form-group-info bg-slate-100 dark:bg-slate-950">
                         <div class="font-bold">Informations personnelles</div>
@@ -82,18 +71,12 @@
         </div>
         </div>
         <!-- Démonstration 2 : Liste de produits -->
-          <div class="my-8 bg-slate-50 dark:bg-slate-700 p-4">
+          <div class="my-8">
         <h3>Exemple : Liste de produits </h3>
         <p>Layout vertical désordonné vs alignement horizontal cohérent</p>
-        <div class="grid grid-cols-1 lg:grid-cols-2">
-            <div class="col-span-1 p-4 m-4 border border-2 border-red-700">
-                <div class="bg-red-700 p-4 text-white flex items-center">
-                    <UIcon name="i-lucide-octagon-x" class="size-8 " />
-                    <div class="ml-4">
-                        <span class="font-bold">Mauvais exemple !</span><br>
-                        <span>Éléments empilés sans cohérence horizontale</span>
-                    </div>
-                </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            <div class="col-span-1 border border-2 border-red-700">
+                 <SampleAlert wrapper-class="bg-red-700" icon-name="i-lucide-octagon-x" title="Mauvais exemple !" desc="Éléments empilés sans cohérence horizontale" />
                 <div class="p-4 mt-4">
                     <div class="flex flex-col flex flex-col items-center justify-center">
                         <div class="w-full text-center p-4 flex flex-col items-center justify-center my-4 bg-slate-100 dark:bg-slate-950 shadow-lg">
@@ -115,14 +98,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-span-1 p-4 m-4 border border-2 border-emerald-700">
-                <div class="bg-emerald-700  p-4 text-white flex items-center">
-                    <UIcon name="i-lucide-circle-check-big" class="size-8 " />
-                    <div class="ml-4">
-                        <span class="font-bold">Bon exemple !</span><br>
-                        <span>Image, détails et prix sont alignés et groupés</span>
-                    </div>
-                </div>
+            <div class="col-span-1 border border-2 border-emerald-700">
+                <SampleAlert wrapper-class="bg-emerald-700" icon-name="i-lucide-circle-check-big" title="Bon exemple !" desc="Image, détails et prix sont alignés et groupés" />
                 <div class="mt-4 p-4 good-form ">
                     <div class="flex-col mt-4  ">
                         <div class="product-item bg-slate-100 dark:bg-slate-950 mt-4 shadow-lg">
@@ -148,18 +125,13 @@
         </div>
         
         <!-- Démonstration 3 : Profil utilisateur -->
-        <div class="my-8 bg-slate-50 dark:bg-slate-700 p-4">
+        <div class="my-8">
             <h3>Exemple : Profil utilisateur </h3>
             <p>Éléments éparpillés vs avatar et infos regroupés logiquement</p>
-            <div class="grid grid-cols-1 lg:grid-cols-2">
-                <div class="col-span-1 p-4 m-4 border border-2 border-red-700">
-                    <div class="bg-red-700 p-4 text-white flex items-center">
-                        <UIcon name="i-lucide-octagon-x" class="size-8 " />
-                        <div class="ml-4">
-                            <span class="font-bold">Mauvais exemple !</span><br>
-                            <span>Éléments empilés sans cohérence horizontale</span>
-                        </div>
-                    </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                <div class="col-span-1 border border-2 border-red-700">
+                    <SampleAlert wrapper-class="bg-red-700" icon-name="i-lucide-octagon-x" title="Mauvais exemple !" desc="Éléments empilés sans cohérence horizontale" />
+
                     <div class="p-4 bad-form ">
                         <div class="bg-slate-100 dark:bg-slate-950 profile-demo bad-profile shadow-lg">
                             <div class="profile-avatar bg-primary">DL</div>
@@ -184,14 +156,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-span-1 p-4 m-4 border border-2 border-emerald-700">
-                    <div class="bg-emerald-700  p-4 text-white flex items-center">
-                        <UIcon name="i-lucide-circle-check-big" class="size-8 " />
-                        <div class="ml-4">
-                            <span class="font-bold">Bon exemple !</span><br>
-                            <span>Image, détails et prix sont alignés et groupés</span>
-                        </div>
-                    </div>
+                <div class="col-span-1 border border-2 border-emerald-700">
+                      <SampleAlert wrapper-class="bg-emerald-700" icon-name="i-lucide-circle-check-big" title="Bon exemple !" desc="Image, détails et prix sont alignés et groupés" />
+
+               
                     <div class="p-4 good-form">
                         <div class="bg-slate-100 dark:bg-slate-950 profile-demo good-profile shadow-lg">
                             <div class="profile-avatar bg-primary p-4">DL</div>
@@ -222,6 +190,7 @@
         </div>
     </div>
 </template>
+
 
 <style scoped>
 /** Démonstration 1 : Formulaire de contact **/

@@ -16,71 +16,64 @@
             <div class="stat-item bg-slate-50 dark:bg-slate-950">
                 <div class="stat-number text-primary">3x</div>
                 <div class="stat-label">Plus d'erreurs avec des patterns non-conventionnels</div>
-                </div>
             </div>
-                    
-   
-
-
+        </div>
+        
+        
+        
+        
         <!-- Démonstration : Menu navigation -->
         <div>
             <h2>Les exemples </h2>
         </div>
-        <div class="my-8 bg-slate-50 dark:bg-slate-700 p-4">
-            <div class="p-4 m-4 border border-2 border-red-700">
-                <div class="bg-red-700 p-4 text-white flex items-center">
-                     <UIcon name="i-lucide-octagon-x" class="size-8 " />
-                    <div class="ml-4">
-                        <p class="font-bold">Mauvais exemple ! - Navigation "Créative"</p>
-                        <ul class="mt-2">
-                            <li>Navigation inhabituelle déroute les utilisateurs</li>
-                            <li>Menu flottant non-standard</li>
-                            <li>Catégories vagues et poétiques</li>
-                            <li>Pas de panier visible</li>
-                            <li>Courbe d'apprentissage élevée</li>
-                        </ul>
-                    </div>
+        <div class="my-8">
+            <div class="p-4 border border-2 border-red-700">
+                <SampleAlert wrapper-class="bg-red-700" icon-name="i-lucide-octagon-x" title="Mauvais exemple !" desc='Navigation "Créative"' />
+                <div class="bg-red-700 p-4">
+                    <ul class="mt-2">
+                        <li>Navigation inhabituelle déroute les utilisateurs</li>
+                        <li>Menu flottant non-standard</li>
+                        <li>Catégories vagues et poétiques</li>
+                        <li>Pas de panier visible</li>
+                        <li>Courbe d'apprentissage élevée</li>
+                    </ul>
                 </div>
-                <div class="mt-4 example-card">
+                <div class="mt-4 relative example-card">
                     <!-- Mauvaise pratique -->
                     <div class="creative-nav">
                         <div class="creative-header">
                             <div class="creative-logo">ARTISAN</div>
-                            <input type="text" class="creative-search" placeholder="Rechercher dans l'univers...">
+                            <input type="text" class="creative-search flex flex-wrap justify-center items-center p-2" placeholder="Rechercher dans l'univers...">
                         </div>
-                        <div class="creative-categories">
+                        <div class="flex flex-wrap justify-center items-center gap-2 p-2 ">
                             <a href="#" class="creative-category">Mystère</a>
                             <a href="#" class="creative-category">Élégance</a>
                             <a href="#" class="creative-category">Raffinement</a>
                         </div>
                     </div>
                     
-                    <div class="floating-menu p-4 m-4 border border-2 border-red-700 text-red-700 text-center bg-red-200">
+                    <div class="floating-menu p-1 border border-2 border-red-700 text-red-700 text-center bg-red-200">
                         <UIcon name="i-lucide-octagon-x" class="size-8 " />
-                      
                         <div class="menu-item flex items-center justify-center">🏠</div>
                         <div class="menu-item flex items-center justify-center">🛍️</div>
                         <div class="menu-item flex items-center justify-center">❤️</div>
                         <div class="menu-item flex items-center justify-center">👤</div>
-                          <div class="bg-red-700 p-1 text-white flex items-center justify-center"><small>Mauvaise<br> pratique</small></div>
+                        <div class="bg-red-700 p-1 text-white flex items-center justify-center"><small>Non !</small></div>
                     </div>
                 </div>
                 
                 
             </div>
-            <div class="p-4 m-4 border border-2 border-emerald-700">
-                <div class="bg-emerald-700  p-4 text-white flex items-center">
-                  <UIcon name="i-lucide-circle-check-big" class="size-8 " />
-                    <div class="ml-4">
-                        <p class="font-bold">Bon exemple - Navigation Conventionnelle</p>
-                        <ul class="mt-2">
-                            <li>Structure familière (logo, recherche, panier)</li>
-                            <li>Catégories claires et descriptives</li>
-                            <li>Panier visible avec compteur</li>
-                            <li>Apprentissage immédiat</li>
-                            <li>Conforme aux attentes des utilisateurs</li>
-                        </ul>
-                    </div>
+            <div class="p-4 mt-4 border border-2 border-emerald-700">
+                <SampleAlert wrapper-class="bg-emerald-700" icon-name="i-lucide-circle-check-big" title="Bon exemple !" desc='Navigation Conventionnelle !' />
+                <div class="p-4 bg-emerald-700">
+                    <ul class="mt-2">
+                        <li>Structure familière (logo, recherche, panier)</li>
+                        <li>Catégories claires et descriptives</li>
+                        <li>Panier visible avec compteur</li>
+                        <li>Apprentissage immédiat</li>
+                        <li>Conforme aux attentes des utilisateurs</li>
+                    </ul>
                 </div>
                 <div class="mt-2">
                     <!-- Bonne pratique -->
@@ -289,7 +282,7 @@
     padding: 15px 20px;
     border-radius: 30px;
     color: white;
-    width: 300px;
+    
     text-align: center;
     backdrop-filter: blur(10px);
 }
@@ -304,14 +297,15 @@
     right:0px;
     transform: translateY(-50%);
     z-index: 1000;
+ 
 }
 
 .menu-item {
-    margin: 20px auto;
+    margin: 5px auto;
     text-align: center;
     background: rgba(255,255,255,0.9);
     color: #333;
-    padding: 15px;
+    padding: 5px;
     border-radius: 50%;
     cursor: pointer;
     transition: all 0.3s;
@@ -328,12 +322,7 @@
     background: white;
 }
 
-.creative-categories {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    gap: 20px;
-}
+
 
 .creative-category {
     background: rgba(255,255,255,0.1);

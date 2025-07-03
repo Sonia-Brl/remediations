@@ -10,7 +10,6 @@ body{
 h1,h2{
   font-family: 'Anton';
   letter-spacing: 0.1rem;
-  margin-top: 2rem;
 }
 h1,h2,h3,h4,h5{
   font-weight: bold;
@@ -26,8 +25,7 @@ h3{
 
 }
 h1{
-  margin-bottom: 2rem;
-  @apply text-4xl;
+  @apply text-4xl my-6;
 }
 
 h2{
@@ -70,6 +68,132 @@ font-size: 3rem;
   margin-left: 0;
 }
 
+
+
+/* Démonstration 2: Navigation */
+.nav-demo  .nav-item {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e9ecef;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+.btn-cta {
+    transform: scale(1.05);
+    color: #fff;
+    animation: call-to-action 2s infinite;
+}
+
+
+.form-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 12px 25px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.btn-secondary {
+    background: #95a5a6;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background: #7f8c8d;
+}
+
+.btn-primary {
+    transform: scale(1.05);
+    animation: call-to-action 2s infinite;
+}
+
+.btn-primary:hover {
+    transform: scale(1.08) translateY(-2px);
+}
+
+/* Démonstration 4: Statistiques */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+ 
+}
+
+.stat-card {
+    padding: 25px;
+    text-align: center;
+    transition: all 0.3s ease;
+    vertical-align: middle;
+      min-height: 160px;
+      @apply flex flex-col items-center justify-center;
+}
+
+.stat-card .number {
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+.stat-card .label {
+    font-weight: 500;
+}
+
+.stat-card.highlight {
+    color: white;
+}
+.stat-card.highlight .label,
+.stat-card.highlight .number {
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Démonstration 1: Formulaire de contact */
+.form-demo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: 500;
+    
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    padding: 10px;
+    border: 2px solid #e9ecef;
+    font-size: 1em;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+    outline: none;
+    border-color: #151442;
+}
+
+
 /** L’effet Von Restroff **/
 /* Démonstration 1: Liste de produits */
 .product-grid{
@@ -98,7 +222,7 @@ font-size: 3rem;
   @apply font-bold text-2xl text-[#27ae60];
 }
 .product-card.featured {
-  @apply text-white scale-[1.05] bg-radial from-[#ED0040] from-40% to-[#ff6b6b] shadow-xl shadow-[#ff6b6b4d];
+  @apply text-white scale-[1] bg-radial from-[#ED0040] from-40% to-[#ff6b6b] shadow-xl shadow-[#ff6b6b4d];
   animation: pulse-glow 2s infinite;
 }
 
@@ -112,11 +236,11 @@ font-size: 3rem;
 @keyframes pulse-glow {
   0%, 100% { 
     box-shadow: 0 15px 35px rgba(255, 107, 107, 0.3);
-    transform: scale(1.05);
+    transform: scale(1.005);
   }
   50% { 
     box-shadow: 0 20px 45px rgba(255, 107, 107, 0.5);
-    transform: scale(1.08);
+    transform: scale(1.008);
   }
 }
 
