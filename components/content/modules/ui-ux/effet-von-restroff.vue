@@ -61,7 +61,7 @@
                 <a href="#" class="col-span-5 md:col-span-1 p-4">Accueil</a>
                 <a href="#" class="col-span-5 md:col-span-1 p-4">Produits</a>
                 <a href="#" class="col-span-5 md:col-span-1 p-4">Services</a>
-                <a href="#" class="col-span-5 md:col-span-1 p-4 btn bg-emerald-700">Essai Gratuit</a>
+                <a href="#" class="col-span-5 md:col-span-1 p-4 btn bg-emerald-700 text-white">Essai Gratuit</a>
                 <a href="#" class="col-span-5 md:col-span-1 p-4">Contact</a>
             </nav>
             <p><strong>Résultat :</strong> Le bouton "Essai Gratuit" se démarque des autres éléments de navigation.</p>

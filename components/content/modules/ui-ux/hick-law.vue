@@ -3,10 +3,10 @@
         <!-- Démonstration : Menu navigation -->
         <div class="my-8">
             <h3>Formulaire de séléction de forfait mobile</h3>
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                <div class="col-span-1 p-4  border border-2 border-red-700">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">
+                <div class="col-span-1  border border-2 border-red-700">
                        <SampleAlert wrapper-class="bg-red-700" icon-name="i-lucide-octagon-x" title="Mauvais exemple !" desc='Paralysie du choix - 9 options simultanées' />
-                    <div class="mt-4">
+                    <div class="p-4">
                         <div class="bg-red-700 p-2 text-white text-center font-bold"><UIcon name="i-lucide-clock"/> ~8 sec</div>
                         <p class="text-center mt-5"> Choisir un forfait mobile </p>                         
                         <div class="flex flex-wrap justify-center items-center">
@@ -67,9 +67,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-span-1 p-4 border border-2 border-emerald-700">   
+                <div class="col-span-1 border border-2 border-emerald-700">   
                     <SampleAlert wrapper-class="bg-emerald-700" icon-name="i-lucide-circle-check-big" title="Bon exemple !" desc='Décision simplifiée - Maximum 2 choix par étape' />
-                    <div class="mt-4">
+                    <div class="p-4">
                         <div class="bg-emerald-700 p-2 text-white text-center font-bold"><UIcon name="i-lucide-clock"/> ~3 sec</div>
                         <p class="text-center mt-5"> Choisir un forfait mobile - Processus guidé
                         </p>
@@ -106,20 +106,20 @@
         <h2>Études de Cas Pratiques</h2>
         <!-- Etude de cas pratique -->
         <!-- Cas 1 -->
-        <div class="my-8">
+        <div class="my-8 mt-4">
             <h3>Cas 1 : Refonte d'un Menu E-commerce</h3>
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                <div class="col-span-1 p-4 border border-2 border-red-700">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">
+                <div class="col-span-1 border border-2 border-red-700">
                     <SampleAlert wrapper-class="bg-red-700" icon-name="i-lucide-octagon-x" title="Mauvais exemple !" desc='Navigation floue' />
-                    <ul class="mt-5">
+                    <ul class="p-4">
                         <li>23 catégories au premier niveau</li>
                         <li>Temps moyen de navigation : 8.3 secondes</li>
                         <li>Taux d'abandon : 34%</li>
                     </ul>
                 </div>
-                <div class="col-span-1 p-4 border border-2 border-emerald-700">
+                <div class="col-span-1 border border-2 border-emerald-700">
                     <SampleAlert wrapper-class="bg-emerald-700" icon-name="i-lucide-circle-check-big" title="Bon exemple !" desc='Navigation optimisée' />
-                    <ul class="mt-5">
+                    <ul class="p-5">
                         <li>Femme | Homme | Enfant | Maison | Sport</li>
                         <li>5 catégories principales</li>
                         <li>Sous-catégories au survol</li>
@@ -139,9 +139,9 @@
         <div class="my-8">
             <h3>Cas 2 : Application de Streaming</h3>
             <p><strong>Défi :</strong> Choisir parmi 10,000+ contenus</p>
-            <div class="col-span-1 p-4 border border-2 border-emerald-700">
+            <div class="col-span-1 border border-2 border-emerald-700">
                 <SampleAlert wrapper-class="bg-emerald-700" icon-name="i-lucide-circle-check-big" title="Bon exemple !" desc='Approche progressive' />
-                <ol class="mt-5">
+                <ol class="p-4">
                     <li>Algorithme de recommandation (6 suggestions)</li>
                     <li>Catégories populaires (8 genres)</li>
                     <li>Recherche avec auto-complétion</li>
@@ -159,17 +159,17 @@
         <!-- Cas 3 -->  
         <div class="my-8">
             <h3>Cas 3 : Interface de Configuration</h3>
-              <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                <div class="col-span-1 p-4 border border-2 border-red-700">
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">
+                <div class="col-span-1 border border-2 border-red-700">
                     <SampleAlert wrapper-class="bg-red-700" icon-name="i-lucide-octagon-x" title="Mauvais exemple !" desc='Configuration floue' />
-                    <ul class="mt-5">
+                    <ul class="p-4">
                         <li>47 paramètres sur une seule page</li>
                         <li>Utilisateurs perdus et frustrés</li>
                     </ul>
                 </div>
-                <div class="col-span-1 p-4 border border-2 border-emerald-700">
+                <div class="col-span-1 border border-2 border-emerald-700">
                     <SampleAlert wrapper-class="bg-emerald-700" icon-name="i-lucide-circle-check-big" title="Bon exemple !" desc='Configuration par étapes' />
-                    <ul class="mt-5">
+                    <ul class=" p-4">
                         <li>Etape 1 : Compte (4 champs essentiels)</li>
                         <li>Etape 2 : Préférences (5 options principales)</li>
                         <li>Etape 3 : Notifications (3 types de choix)</li>

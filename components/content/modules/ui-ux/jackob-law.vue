@@ -27,10 +27,10 @@
             <h2>Les exemples </h2>
         </div>
         <div class="my-8">
-            <div class="p-4 border border-2 border-red-700">
+            <div class=" border border-2 border-red-700">
                 <SampleAlert wrapper-class="bg-red-700" icon-name="i-lucide-octagon-x" title="Mauvais exemple !" desc='Navigation "Créative"' />
                 <div class="bg-red-700 p-4">
-                    <ul class="mt-2">
+                    <ul class="mt-2 text-white">
                         <li>Navigation inhabituelle déroute les utilisateurs</li>
                         <li>Menu flottant non-standard</li>
                         <li>Catégories vagues et poétiques</li>
@@ -38,7 +38,7 @@
                         <li>Courbe d'apprentissage élevée</li>
                     </ul>
                 </div>
-                <div class="mt-4 relative example-card">
+                <div class="mt-4 relative example-card p-4">
                     <!-- Mauvaise pratique -->
                     <div class="creative-nav">
                         <div class="creative-header">
@@ -64,10 +64,10 @@
                 
                 
             </div>
-            <div class="p-4 mt-4 border border-2 border-emerald-700">
+            <div class=" mt-4 border border-2 border-emerald-700">
                 <SampleAlert wrapper-class="bg-emerald-700" icon-name="i-lucide-circle-check-big" title="Bon exemple !" desc='Navigation Conventionnelle !' />
                 <div class="p-4 bg-emerald-700">
-                    <ul class="mt-2">
+                    <ul class="mt-2 text-white">
                         <li>Structure familière (logo, recherche, panier)</li>
                         <li>Catégories claires et descriptives</li>
                         <li>Panier visible avec compteur</li>
@@ -75,7 +75,7 @@
                         <li>Conforme aux attentes des utilisateurs</li>
                     </ul>
                 </div>
-                <div class="mt-2">
+                <div class="mt-2 p-4">
                     <!-- Bonne pratique -->
                     <div class="conventional-nav">
                         <div class="nav-top">
