@@ -40,10 +40,28 @@ hr {
 @apply my-8
 }
 
-.scrib,
-.main-home{
+.font-marker{
  font-family: "Permanent Marker", cursive;
 }
+.nav-wrapper{
+  @apply flex z-40 bg-default fixed justify-between items-center border-b border-default w-full;
+}
+.nav-home-link{
+  @apply p-4 font-bold flex items-center justify-around hover:text-white; 
+}
+.home-link{
+  @apply ml-2 text-primary;
+}
+.main-wrapper {
+  @apply min-h-screen flex flex-col justify-between ;
+}
+.nav-home-link:hover .home-link{
+  @apply text-white;
+}
+.main{
+  @apply p-4 md:p-8 w-full mx-auto mt-8 pt-8; 
+}
+
 .module-content strong{
    font-weight: bolder;
 }
