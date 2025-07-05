@@ -5,7 +5,7 @@
             <h3>Formulaire de séléction de forfait mobile</h3>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">
                 <div class="col-span-1  border border-2 border-red-700">
-                       <SampleAlert wrapper-class="bg-red-700" icon-name="i-lucide-octagon-x" title="Mauvais exemple !" desc='Paralysie du choix - 9 options simultanées' />
+                    <SampleAlert wrapper-class="bg-red-700" icon-name="i-lucide-octagon-x" title="Mauvais exemple !" desc='Paralysie du choix - 9 options simultanées' />
                     <div class="p-4">
                         <div class="bg-red-700 p-2 text-white text-center font-bold"><UIcon name="i-lucide-clock"/> ~8 sec</div>
                         <p class="text-center mt-5"> Choisir un forfait mobile </p>                         
@@ -159,7 +159,7 @@
         <!-- Cas 3 -->  
         <div class="my-8">
             <h3>Cas 3 : Interface de Configuration</h3>
-              <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">
                 <div class="col-span-1 border border-2 border-red-700">
                     <SampleAlert wrapper-class="bg-red-700" icon-name="i-lucide-octagon-x" title="Mauvais exemple !" desc='Configuration floue' />
                     <ul class="p-4">
