@@ -14,7 +14,7 @@
 
 <script setup lang="ts">
 import type { NavigationMenuItem } from '@nuxt/ui'
-const mainLabelFontSize = "text-2xl mt-4";
+const mainLabelFontSize = "text-xl mt-2";
 const childLabelFontSize = "text-xl";
 const items = ref<NavigationMenuItem[][]>([
 [
