@@ -6,7 +6,7 @@
     highlight-color="primary"  
     orientation="vertical" 
     :items="items" 
-    class="data-[orientation=vertical]:w-full " />
+    class="data-[orientation=vertical]:w-full list-none " />
   </div>
 </template>
 

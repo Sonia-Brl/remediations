@@ -5,7 +5,7 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">
       <slot :modules="modulList">
         
-        <ul :class="isPopOver ? '' : 'grid  grid-cols-1 lg:grid-cols-2'"  class="gap-8">
+        <ul :class="isPopOver ? 'list-none' : 'grid list-none grid-cols-1 lg:grid-cols-2'"  class="gap-8">
           <li v-for="module in modulList" :key="module.path">
             <NuxtLink :to="{ path: module.path}" :class="isPopOver ? 'w-100 my-4' : 'module-card-big'"   class="module-card  ">{{module.name}}</NuxtLink>
           </li>
