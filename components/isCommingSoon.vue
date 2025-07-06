@@ -1,5 +1,5 @@
 <template>
-    <UCard class="bg-primary text-white  mt-4">
+    <UCard class="bg-primary text-white rounded-none mt-4">
         <div class="flex items-center">
             <div class="p-4">
                 <img :src="workingSonia" alt="Visuel de Sonia Brunel entrain de travailler"  />

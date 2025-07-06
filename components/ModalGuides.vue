@@ -4,7 +4,7 @@
             <UModal fullscreen >
                 <div class="flex flex-col md:flex-row justify-center items-center">
                     <p class="text-white  mb-4 md:mb-0 md:mr-8">Petit guide de survie pour les </p>
-                    <UButton label="Cerveau en détresse" color="primary"class="scrib text-xl" size="xl" trailing-icon="i-lucide-arrow-right" />
+                    <UButton label="Cerveau en détresse" color="primary"class="scrib text-xl rounded-none font-marker" size="xl" trailing-icon="i-lucide-arrow-right" />
                 </div>
                 <template #body>
                     <div class="h-full ">

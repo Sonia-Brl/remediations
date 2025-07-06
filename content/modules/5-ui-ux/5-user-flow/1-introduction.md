@@ -3,6 +3,8 @@ module: UI/UX
 submodule: 5 - User-flow
 ---
 
+::is-comming-soon
+
 Un **user flow** (ou flux utilisateur) est la représentation visuelle du chemin qu'emprunte un utilisateur pour accomplir une tâche spécifique dans une application ou un site web.
 
 ## Qu'est-ce que c'est concrètement ?

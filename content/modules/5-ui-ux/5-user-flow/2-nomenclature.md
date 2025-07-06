@@ -3,6 +3,8 @@ module: UI/UX
 submodule: 5 - User-flow
 ---
 
+::is-comming-soon
+
 Voici le guide complet des formes utilisées dans les user flows et leur signification précise :
 
 ## Les formes de base
