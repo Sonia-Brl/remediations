@@ -4,6 +4,9 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
+  nitro: {
+    logLevel: 4, // Mode debug complet
+  },
   modules: ['@nuxt/ui','@nuxt/content'],
   colorMode: {
     classSuffix: ''
