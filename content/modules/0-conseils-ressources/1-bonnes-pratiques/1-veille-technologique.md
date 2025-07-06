@@ -1,7 +1,7 @@
 ---
 title: La veille technologique
 module: Conseils et ressources
-submodule: 1-bonnes-pratiques
+submodule: 1 - Bonnes pratiques
 ready: true
 summary: false
 toc: true

@@ -3,7 +3,7 @@
         <ULink as="button" to="/"  class="nav-home-link"><UIcon name="i-lucide-home" class="size-5 mr-2" />Remediations<span class="home-link font-marker">by Sonia</span></ULink>
         <div class="mr-8">
             <ColorModeButton></ColorModeButton>
-        <USlideover title="Remediation" description="Liste des modules">
+        <USlideover title="Remediation" description="Liste des modules" v-if="route.name != 'index'">
                 <UButton icon="i-lucide-menu" color="neutral" variant="outline" />
                 <template #body>
                     <nav>
@@ -17,9 +17,9 @@
                         <p class="main-nav-title mt-8">Autre modules</p>
                         <slot :modules="modulList">
                             
-                            <ul  class="gap-4 grid list-none grid-cols-1 lg:grid-cols-2 list-none">
+                            <ul  class="gap-4 flex flex-col list-none grid-cols-1 list-none">
                                 <li v-for="module in modulList" :key="module.path">
-                                    <NuxtLink :to="{ path: module.path}" class="module-card-popover ">{{module.name}} <UIcon name="i-lucide-move-right" class="size-5 mr-2" /></NuxtLink>
+                                    <NuxtLink :to="{ path: module.path}" class="module-card-popover col-span-1">{{module.name}} <UIcon name="i-lucide-move-right" class="size-5 mr-2" /></NuxtLink>
                                 </li>
                             </ul>
                         </slot>

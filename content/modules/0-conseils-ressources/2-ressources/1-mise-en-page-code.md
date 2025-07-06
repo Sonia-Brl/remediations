@@ -1,7 +1,7 @@
 ---
 title: Ressources de mise en page pour vos morceaux de code
 module: Conseils et ressources
-submodule: 2-ressources
+submodule: 2 - Ressources
 ready: true
 summary: false
 toc: true
