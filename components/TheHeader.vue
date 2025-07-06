@@ -108,6 +108,9 @@ function getModuleName(modulPathArray :any) {
         case (modulPathArray[2].includes("ui-ux")):
         moduleName = "UX/UI"
         break;
+         case (modulPathArray[2].includes("html")):
+        moduleName = "HTML"
+        break;
         default:
         console.log('ERROR No Module Name provided for: ' + modulPathArray);
     };

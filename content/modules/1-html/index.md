@@ -1,7 +1,7 @@
 ---
 title: Liste des remédiations HTML
 module: Html
-ready: true
+ready: false
 summary: true
 toc: false
 ---

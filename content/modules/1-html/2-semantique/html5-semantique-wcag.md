@@ -7,15 +7,13 @@ toc: true
 
 # HTML5 Sémantique et Accessibilité WCAG 2.2 
 
-
-
-
-## 1. Introduction à la Sémantique HTML5 {#introduction}
+## 1. Introduction à la Sémantique HTML5
 
 ### Pourquoi la Sémantique Compte en 2025
 
-La sémantique HTML5 va bien au-delà de la simple structuration du contenu. Elle constitue la fondation de :
+La sémantique HTML5 va bien au-delà de la simple structuration du contenu. 
 
+Elle constitue la fondation de :
 - **L'accessibilité universelle** : permettre à tous les utilisateurs d'accéder au contenu
 - **L'optimisation SEO avancée** : améliorer la compréhension par les moteurs de recherche
 - **L'interopérabilité** : faciliter la consommation de contenu par diverses technologies
@@ -24,6 +22,7 @@ La sémantique HTML5 va bien au-delà de la simple structuration du contenu. Ell
 ### Le Modèle Mental Sémantique
 
 ```html
+
 <!-- ❌ Mauvaise approche :Div-itis -->
 <div class="header">
   <div class="navigation">...</div>
@@ -32,6 +31,10 @@ La sémantique HTML5 va bien au-delà de la simple structuration du contenu. Ell
   <div class="article">...</div>
 </div>
 
+```
+
+```html
+
 <!-- ✅ Approche sémantique experte -->
 <header role="banner">
   <nav role="navigation" aria-label="Navigation principale">...</nav>
@@ -39,20 +42,18 @@ La sémantique HTML5 va bien au-delà de la simple structuration du contenu. Ell
 <main role="main">
   <article role="article">...</article>
 </main>
+
 ```
 
 ### Hiérarchie de l'Information
 
 La sémantique suit une hiérarchie logique :
-
 1. **Document** (html)
 2. **Sections** (header, nav, main, aside, footer)
 3. **Contenu** (article, section, div)
 4. **Détails** (h1-h6, p, span)
 
----
-
-## 2. Architecture Document et Structure {#architecture}
+## 2. Architecture Document et Structure
 
 ### Structure Document Moderne
 
@@ -142,9 +143,7 @@ Les landmarks créent une carte mentale du document :
 </aside>
 ```
 
----
-
-## 3. Éléments Sémantiques Avancés {#elements-semantiques}
+## 3. Éléments Sémantiques Avancés
 
 ### Éléments de Contenu Spécialisés
 
@@ -241,9 +240,7 @@ function calculateTotal(items) {
 </p>
 ```
 
----
-
-## 4. WCAG 2.2 : Principes et Guidelines {#wcag-principes}
+## 4. WCAG 2.2 : Principes et Guidelines
 
 ### Les 4 Principes Fondamentaux
 
@@ -435,10 +432,7 @@ Le contenu doit être robuste pour être interprété par diverses technologies.
 </body>
 </html>
 ```
-
----
-
-## 5. ARIA : Techniques Avancées {#aria-avance}
+## 5. ARIA : Techniques Avancées
 
 ### Propriétés ARIA Essentielles
 
@@ -580,9 +574,8 @@ function updateStatus(message, isError = false) {
 </script>
 ```
 
----
 
-## 6. Navigation et Focus Management {#navigation-focus}
+## 6. Navigation et Focus Management
 
 ### Skip Links et Navigation
 
@@ -829,9 +822,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 ```
 
----
-
-## 7. Formulaires Accessibles {#formulaires}
+## 7. Formulaires Accessibles
 
 ### Structure et Labels
 

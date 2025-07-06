@@ -37,9 +37,12 @@ h2{
 }
 
 hr {
-@apply my-8
+@apply my-8 ;
 }
-
+pre,
+code{
+  @apply font-mono bg-slate-100 dark:bg-slate-950 p-4 mt-4;
+}
 .font-marker{
  font-family: "Permanent Marker", cursive;
 }
