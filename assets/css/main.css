@@ -49,6 +49,10 @@ hr {
 .nav-home-link{
   @apply p-4 font-bold flex items-center justify-around hover:text-white; 
 }
+
+.main-nav-title{
+  @apply uppercase font-bold text-3xl p-4;
+}
 .home-link{
   @apply ml-2 text-primary;
 }
@@ -62,10 +66,15 @@ hr {
   @apply p-4 md:p-8 w-full mx-auto mt-8 pt-8; 
 }
 
+.module-card-popover{
+    @apply  text-3xl bg-slate-100 dark:bg-slate-950 w-100 flex flex-row items-center justify-between p-5 cursor-pointer uppercase font-bold; 
+  transition: all 0.3s ease;
+}
 .module-card{
   @apply  text-3xl bg-slate-100 dark:bg-slate-950 flex flex-col items-center justify-center p-6 shadow-lg text-center cursor-pointer uppercase font-bold; 
   transition: all 0.3s ease;
 }
+.module-card-popover:hover,
 .module-card:hover {
   @apply translate-y-[-5px] bg-primary text-white;
 }

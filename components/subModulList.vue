@@ -31,7 +31,7 @@ if(data){
       if(!labelExists(subModulList, subModuleName)){
         subModulList.push({
           label:subModuleName,
-          icon: 'i-lucide-book-open size-5',
+          icon: 'i-lucide-book-open',
           class: mainLabelFontSize,
           children: getSubModulChildren(subModuleName)
         })

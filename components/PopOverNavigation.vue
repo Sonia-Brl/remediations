@@ -1,0 +1,111 @@
+
+<template>
+  <nav>
+   <p class="main-nav-title">En cours : {{ moduleName }}</p>
+    <UNavigationMenu  
+    highlight
+    highlight-color="primary"  
+    orientation="vertical" 
+    :items="items" 
+    class="data-[orientation=vertical]:w-full list-none " />
+      <p class="main-nav-title mt-8">Autre modules</p>
+    <slot :modules="modulList">
+            
+        <ul  class="gap-4 grid list-none grid-cols-1 lg:grid-cols-2 list-none">
+          <li v-for="module in modulList" :key="module.path">
+            <NuxtLink :to="{ path: module.path}" class="module-card-popover ">{{module.name}} <UIcon name="i-lucide-move-right" class="size-5 mr-2" /></NuxtLink>
+          </li>
+        </ul>
+    </slot>
+  </nav>
+</template>
+
+<script setup lang="ts">
+import type { NavigationMenuItem } from '@nuxt/ui';
+const route = useRoute();
+const modulPathArray= route.path.split('/').splice(0, 3);
+const moduleName = getModuleName(modulPathArray);
+const modulePath = modulPathArray.join('/');
+const data = await queryCollection('docs').all();
+
+const modulList: any = [];
+// Grouper les éléments par module
+if(data){
+  data.map((item) => {
+    const moduleName = item.meta?.module;
+    const isSUmmary = item.meta?.summary;
+    const isReady = item.meta?.ready;
+    const isCurrent = item.path.includes(modulePath);
+    if (moduleName  && isSUmmary && isReady && !isCurrent) {
+      modulList.push({
+        "path": item.path,
+        "name":moduleName,
+      })
+    }
+  });
+}
+const subModulList:any[] = [];
+const mainLabelFontSize = "text-xl mt-2 font-bold ";
+const childLabelFontSize = "text-xl";
+// Grouper les éléments par sous module module
+if(data){
+  data.map((item) => {
+    const subModuleName: any = item.meta?.submodule;
+    const path = item.path;
+    //console.log("path : ", path); 
+    const isSubModule = path.includes(modulePath);
+    if (subModuleName && isSubModule) {
+      if(!labelExists(subModulList, subModuleName)){
+        subModulList.push({
+          label:subModuleName,
+          icon: 'i-lucide-book-open',
+          class: mainLabelFontSize,
+          children: getSubModulChildren(subModuleName)
+        })
+      }
+    }
+  });
+}
+
+function getSubModulChildren(subModuleName: any){
+  const subModulChildrren:any = [];
+  data.map((item) => {
+    const path = item.path;
+    if (subModuleName  === item.meta?.submodule) {
+      subModulChildrren.push({
+        label: item.title,
+        icon: 'i-lucide-corner-down-right',
+        class: childLabelFontSize,
+        to: path,
+      }) 
+    }
+  });
+  return subModulChildrren;
+}
+
+
+// Avec some() - retourne true/false
+function labelExists(data:any, labelToCheck:string)  {
+  return data.some((item: any) => item.label === labelToCheck);
+}
+
+
+
+const items = ref<NavigationMenuItem[][]>([
+subModulList
+])
+
+
+function getModuleName(modulPathArray :any) {
+  console.log("modulPathArray", modulPathArray[2]); 
+  let moduleName= ""; 
+  switch (true)  {
+    case (modulPathArray[2].includes("ui-ux")):
+    moduleName = "UX/UI"
+    break;
+    default:
+    console.log('ERROR No Module Name provided for: ' + modulPathArray);
+  };
+  return moduleName; 
+}
+</script>

@@ -6,8 +6,7 @@
             <USlideover >
                 <UButton icon="i-lucide-menu" color="neutral" variant="outline" />
                 <template #body>
-                    <SubModulList/>
-                    <ModulesList :isPopOver = true />
+                  <PopOverNavigation/>
                 </template>
             </USlideover>
         </div>
