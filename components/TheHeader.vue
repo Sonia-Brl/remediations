@@ -8,7 +8,7 @@
                 <template #body>
                     <nav>
                         <p class="main-nav-title">En cours : {{ moduleName }}</p>
-                        <UNavigationMenu  
+                        <UNavigationMenu  v-model="active" type="single"
                         highlight
                         highlight-color="primary" 
                         orientation="vertical" 
@@ -32,6 +32,7 @@
 
 <script setup lang="ts">
 import type { NavigationMenuItem } from '@nuxt/ui';
+const active = ref();
 const route = useRoute();
 const modulPathArray= route.path.split('/').splice(0, 3);
 const moduleName = getModuleName(modulPathArray);

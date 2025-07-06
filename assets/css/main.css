@@ -302,14 +302,6 @@ font-size: 3rem;
 
 /** Responsif **/
 
-@media (max-width: 448px) { 
-  .module-content li{
-    list-style: disc;
-    margin-left: 1.5rem;
-    margin-top: 0.5rem;
-  }
-}
-
 @media (max-width: 768px) {
     .nav-demo {
         flex-direction: column;

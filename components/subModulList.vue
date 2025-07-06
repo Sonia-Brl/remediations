@@ -1,7 +1,7 @@
 
 <template>
   <div class="modules-navigation my-8">
-    <UNavigationMenu  
+    <UNavigationMenu v-model="active" type="single"
     highlight
     highlight-color="primary"  
     orientation="vertical" 
@@ -14,7 +14,7 @@
 
 <script setup lang="ts">
 import type { NavigationMenuItem } from '@nuxt/ui';
-
+const active = ref();
 const route = useRoute();
 
 const data = await queryCollection('docs').all();
