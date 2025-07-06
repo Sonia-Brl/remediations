@@ -26,7 +26,10 @@ if(data){
   data.map((item) => {
     const subModuleName: any = item.meta?.submodule;
     const path = item.path;
-    const isSubModule = path.includes(route.path);
+    let isSubModule = false;
+    if(path){
+      isSubModule = path.includes(route.path);
+    }
     if (subModuleName  && isSubModule) {
       if(!labelExists(subModulList, subModuleName)){
         subModulList.push({

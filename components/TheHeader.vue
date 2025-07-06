@@ -45,7 +45,10 @@ if(data){
         const moduleName = item.meta?.module;
         const isSUmmary = item.meta?.summary;
         const isReady = item.meta?.ready;
-        const isCurrent = item.path.includes(modulePath);
+       let isCurrent =false;
+        if(item.path){
+            isCurrent = item.path.includes(modulePath);
+        }
         if (moduleName  && isSUmmary && isReady && !isCurrent) {
             modulList.push({
                 "path": item.path,
@@ -63,7 +66,10 @@ if(data){
         const subModuleName: any = item.meta?.submodule;
         const path = item.path;
         //console.log("path : ", path); 
-        const isSubModule = path.includes(modulePath) ;
+        let isSubModule = false ;
+        if(path){
+          isSubModule = path.includes(modulePath) ;
+        }
         if (subModuleName && isSubModule) {
             if(!labelExists(subModulList, subModuleName)){
                 subModulList.push({
