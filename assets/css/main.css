@@ -21,7 +21,7 @@ h4,h5{
 }
 
 h3{
-   margin-top: 1.5rem;
+   margin: 2rem 0 0.5rem 0;
 
 }
 h1{
@@ -30,6 +30,8 @@ h1{
 
 h2{
   font-size: 1.6rem;
+    margin: 2rem 0;
+
 }
  img:first-child {
   margin: 2rem auto;
@@ -41,7 +43,7 @@ hr {
 }
 pre,
 code{
-  @apply font-mono bg-slate-100 dark:bg-slate-950 p-4 mt-4;
+  @apply font-mono bg-slate-100 dark:bg-slate-950 text-wrap text-base;
 }
 .font-marker{
  font-family: "Permanent Marker", cursive;

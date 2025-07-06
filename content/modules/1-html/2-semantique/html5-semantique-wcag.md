@@ -2,6 +2,7 @@
 title:  1 - HTML5 Sémantique et Accessibilité WCAG 2.2
 module: Html
 submodule: HTML 5 - Sémentique
+ready:false
 toc: true
 ---
 

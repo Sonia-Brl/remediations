@@ -3,14 +3,14 @@
         <ULink as="button" to="/"  class="nav-home-link"><UIcon name="i-lucide-home" class="size-5 mr-2" />Remediations<span class="home-link font-marker">by Sonia</span></ULink>
         <div class="mr-8">
             <ColorModeButton></ColorModeButton>
-        <USlideover >
+        <USlideover title="Remediation" description="Liste des modules">
                 <UButton icon="i-lucide-menu" color="neutral" variant="outline" />
                 <template #body>
                     <nav>
                         <p class="main-nav-title">En cours : {{ moduleName }}</p>
                         <UNavigationMenu  
                         highlight
-                        highlight-color="primary"  
+                        highlight-color="primary" 
                         orientation="vertical" 
                         :items="items" 
                         class="data-[orientation=vertical]:w-full list-none " />
@@ -110,7 +110,7 @@ subModulList
 
 function getModuleName(modulPathArray :any) {
     let moduleName= ""; 
-    if(modulPathArray){
+    if(modulPathArray && modulPathArray[2]){
     switch (true)  {
         case (modulPathArray[2].includes("ui-ux")):
         moduleName = "UX/UI"
