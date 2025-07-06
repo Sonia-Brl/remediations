@@ -104,6 +104,7 @@ subModulList
 
 function getModuleName(modulPathArray :any) {
     let moduleName= ""; 
+    if(modulPathArray){
     switch (true)  {
         case (modulPathArray[2].includes("ui-ux")):
         moduleName = "UX/UI"
@@ -114,6 +115,7 @@ function getModuleName(modulPathArray :any) {
         default:
         console.log('ERROR No Module Name provided for: ' + modulPathArray);
     };
+    }
     return moduleName; 
 }
 </script>

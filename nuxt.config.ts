@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   },
   nitro: {
     logLevel: 4, // Mode debug complet
-     prerender: {
+    prerender: {
       failOnError: false
     }
   },
@@ -22,14 +22,6 @@ export default defineNuxtConfig({
         toc: {
           depth: 2,
           searchDepth: 2
-        },
-       highlight: {
-          langs: [
-            'c',
-            'cpp',
-            'java',
-            'html'
-          ]
         }
       }
     }
