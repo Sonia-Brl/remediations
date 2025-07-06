@@ -6,6 +6,9 @@ export default defineNuxtConfig({
   },
   nitro: {
     logLevel: 4, // Mode debug complet
+     prerender: {
+      failOnError: false
+    }
   },
   modules: ['@nuxt/ui','@nuxt/content'],
   colorMode: {
