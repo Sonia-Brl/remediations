@@ -1,6 +1,6 @@
 
 <template>
-  <section class=" p-4 bg-default">
+  <section class="p-4 bg-default">
 <div class="container m-auto">
       <h2 :class="isPopOver ? 'text-center' : 'text-start'" >Liste des modules</h2>
     <div class="grid grid-cols-1  gap-4 ">

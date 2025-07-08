@@ -6,7 +6,8 @@
                 <slot/>
             </main>
         </div>
-        <div >
+        <div>
+            <ContactCta />
             <ModalGuides />
             <TheFooter />
 

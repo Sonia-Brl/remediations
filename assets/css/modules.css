@@ -5,21 +5,7 @@
 
 
 
-.module-card-popover{
-    @apply  text-3xl bg-slate-100 dark:bg-slate-950 flex flex-row items-center justify-between p-5 cursor-pointer uppercase font-bold; 
-  transition: all 0.3s ease;
-}
-.module-card{
-  @apply  text-3xl bg-slate-100 dark:bg-slate-950 flex flex-col items-center justify-center p-6 shadow-lg text-center cursor-pointer uppercase font-bold; 
-  transition: all 0.3s ease;
-}
-.module-card-popover:hover,
-.module-card:hover {
-  @apply translate-y-[-5px] bg-primary text-white;
-}
-.module-card-big{
-@apply min-h-48;
-}
+
 .module-content strong{
    font-weight: bolder;
 }

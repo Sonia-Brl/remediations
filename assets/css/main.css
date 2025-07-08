@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
-
+@import "~/assets/css/modules.css";
 @theme {
   --font-sans: 'Atkinson Hyperlegible', sans-serif;
 }
@@ -81,4 +81,28 @@ code{
 
 .remede{
   @apply  mt-4 ;
+}
+
+
+.module-card-popover{
+    @apply  text-3xl bg-slate-100 dark:bg-slate-950 flex flex-row items-center justify-between p-5 cursor-pointer uppercase font-bold; 
+  transition: all 0.3s ease;
+}
+.module-card{
+  @apply  text-3xl bg-slate-100 dark:bg-slate-950 flex flex-col items-center shadow justify-center p-6 text-center cursor-pointer uppercase font-bold; 
+  transition: all 0.3s ease;
+}
+.module-card-popover:hover,
+.module-card:hover {
+  @apply translate-y-[-5px] bg-primary text-white;
+}
+.module-card-big{
+@apply min-h-48;
+}
+.contact-cta{
+  @apply  min-h-48 text-3xl bg-slate-100 dark:bg-slate-950 shadow flex flex-col items-center justify-center p-6 text-center cursor-pointer uppercase font-bold; 
+  transition: all 0.3s ease;
+}
+.contact-cta:hover{
+  @apply translate-y-[-5px] bg-primary text-white;
 }
