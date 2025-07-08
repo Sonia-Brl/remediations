@@ -10,11 +10,11 @@ export default defineNuxtConfig({
       failOnError: false
     }
   },
-  modules: ['@nuxt/ui','@nuxt/content'],
+  modules: ['@nuxt/ui','@nuxt/content','@nuxt/icon'],
   colorMode: {
     classSuffix: ''
   },
-  css: ['~/assets/css/main.css','~/assets/css/modules.css'],
+  css: ['~/assets/css/main.css'],
   devtools: { enabled: false },
   content: {
     build: {

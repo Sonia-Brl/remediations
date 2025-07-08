@@ -35,9 +35,9 @@ export default defineAppConfig({
 navigationMenu: {
       slots: {
         root: 'relative flex gap-1 [&>div]:min-w-0 w-96 ',
-        list: 'isolate min-w-0',
-        label: 'w-full flex items-center gap-1.5  px-2.5 py-1.5',
-        item: 'min-w-0',
+        list: 'isolate min-w-0 ',
+        label: 'w-full flex items-center gap-1.5  px-2.5 py-1.5 ',
+        item: 'min-w-0 shadow mt-4 bg-slate-100 dark:bg-slate-950 ',
         link: 'group relative w-full flex items-center gap-1.5  before:absolute before:z-[-1] before:rounded-md focus:outline-none focus-visible:outline-none dark:focus-visible:outline-none focus-visible:before:ring-inset focus-visible:before:ring-2',
         linkLeadingIcon: 'size-5',
         linkTrailing: 'group ms-auto inline-flex gap-1.5 items-center',
