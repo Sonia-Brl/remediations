@@ -1,8 +1,9 @@
 
 <template>
-  <section class="container m-auto pt-4">
-    <h2 :class="isPopOver ? 'text-center' : 'text-start'" >Liste des modules</h2>
-    <div class="grid grid-cols-1  gap-4 mt-4">
+  <section class=" p-4 bg-default">
+<div class="container m-auto">
+      <h2 :class="isPopOver ? 'text-center' : 'text-start'" >Liste des modules</h2>
+    <div class="grid grid-cols-1  gap-4 ">
       <slot :modules="modulList">
         
         <ul :class="isPopOver ? 'list-none' : 'grid list-none grid-cols-1 lg:grid-cols-3'"  class="gap-8">
@@ -12,6 +13,7 @@
         </ul>
       </slot>
     </div>
+</div>
   </section>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-    <div class="nav-wrapper">
+ <div class="nav-wrapper bg-default ">
         <ULink as="button" to="/"  class="nav-home-link"><UIcon name="i-lucide-home" class="size-5 mr-2" />Remediations<span class="home-link font-marker">by Sonia</span></ULink>
         <div class="mr-8">
             <ColorModeButton></ColorModeButton>

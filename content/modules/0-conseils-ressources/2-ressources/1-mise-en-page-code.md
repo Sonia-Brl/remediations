@@ -7,9 +7,6 @@ summary: false
 toc: true
 ---
 
-::is-comming-soon
-:: 
-
 # Ressources de mise en page pour vos morceaux de code
 
 Voici quelques outils pour mettre en page du code :

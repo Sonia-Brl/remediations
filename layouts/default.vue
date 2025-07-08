@@ -1,14 +1,15 @@
 <template>
-    <div class="main-wrapper">
+    <div class="main-wrapper ">
         <div>
             <TheHeader />
-            <main class="main" >
+            <main class="main z-40" >
                 <slot/>
             </main>
         </div>
-        <div>
+        <div >
             <ModalGuides />
             <TheFooter />
+
         </div>
     </div>
 </template>
