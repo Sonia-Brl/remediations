@@ -7,7 +7,7 @@
 
 body{
   font-size: 1.2rem;
-  @apply bg-slate-50;
+  @apply bg-slate-50 dark:bg-slate-800;
 }
 
 h1,h2{
@@ -29,8 +29,9 @@ h3{
 
 }
 
+
 h1{
-  @apply text-4xl my-6;
+  @apply text-6xl my-10 text-center;
 }
 
 h2{
@@ -39,10 +40,7 @@ h2{
 @apply pt-4 border-b ;
 }
 
- img:first-child {
-  margin: 2rem auto;
-  text-align: center;
-}
+
 
 hr {
 @apply my-8 ;
@@ -82,5 +80,5 @@ code{
 }
 
 .remede{
-  @apply bg-slate-100 dark:bg-slate-950 p-4 mt-2
+  @apply  mt-4 ;
 }
