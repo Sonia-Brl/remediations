@@ -100,7 +100,7 @@ code{
 @apply min-h-48;
 }
 .contact-cta{
-  @apply  min-h-48 text-3xl bg-slate-100 dark:bg-slate-950 shadow flex flex-col items-center justify-center p-6 text-center cursor-pointer uppercase font-bold; 
+  @apply   bg-slate-700 shadow p-4 text-center cursor-pointer uppercase font-bold; 
   transition: all 0.3s ease;
 }
 .contact-cta:hover{

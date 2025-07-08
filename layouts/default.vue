@@ -7,10 +7,8 @@
             </main>
         </div>
         <div>
-            <ContactCta />
             <ModalGuides />
             <TheFooter />
-
         </div>
     </div>
 </template>
