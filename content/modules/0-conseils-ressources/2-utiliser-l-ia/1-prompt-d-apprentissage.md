@@ -14,7 +14,9 @@ label: Petit mot de Sonia
 
 ####  [L'évolution de l'accès à la connaissance : un parcours épique]{class="text-6xl uppercase font-bold font-anton"}
 
-J'ai eu la chance d'apprendre à apprendre dans une époque sans IA, et j'ai vécu de l'intérieur cette révolution silencieuse de l'accès au savoir.
+
+
+>J'ai eu la chance d'apprendre à apprendre dans une époque sans IA, et j'ai vécu de l'intérieur cette révolution silencieuse de l'accès au savoir.
 
 ####  L'ère analogique : les fondations (années 80-90)
 
@@ -189,7 +191,7 @@ Peux-tu me créer un quiz de 10 questions progressives à ce sujet ?
 - Puis 4 questions intermédiaires qui testent l'application et la logique.
 - Enfin, 3 questions avancées avec des cas concrets ou des pièges classiques liés aux [concept à personnaliser]{class="highlight"} .
 
-**Important : Ne me donne pas les réponses immédiatement ! Attends que j'aie répondu à chaque question (ou à l'ensemble du quiz si tu peux me le présenter ainsi). Ensuite, corrige mes réponses avec une explication courte, précise et, si possible, imagée pour chaque question."**
+**Important : Ne me donne pas les réponses immédiatement ! Attends que j'aie répondu à chaque question (ou à l'ensemble du quiz si tu peux me le présenter ainsi). Ensuite, corrige mes réponses avec une explication courte, précise et, si possible, imagée pour chaque question.**
 ::
 
 
@@ -312,7 +314,7 @@ Pour chaque cas, j'attends les informations suivantes :
 - 1. Contexte professionnel clair : Décris l'environnement et le projet.
 - 2. Problème rencontré : Quel défi l'équipe a-t-elle rencontré sans ou avec une mauvaise utilisation de [concept à personnaliser]{class="highlight"} ?
 - 3. Solution mise en œuvre avec [concept à personnaliser]{class="highlight"} (étapes concrètes) : Quelles [fonctionalité du concept à personnaliser]{class="highlight"} ont été utilisées pour résoudre le problème ?
-- 4. Résultat obtenu : Quel a été l'impact mesurable (par exemple, " [lister les objectifs ou les avantages du concept à personnaliser]{class="highlight"} ") ?
+- 4. Résultat obtenu : Quel a été l'impact mesurable (par exemple, [lister les objectifs ou les avantages du concept à personnaliser]{class="highlight"} ) ?
 ::
 
 
