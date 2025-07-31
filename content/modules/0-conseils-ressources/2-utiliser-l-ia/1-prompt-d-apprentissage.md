@@ -345,11 +345,11 @@ Peux-tu me créer un plan de révision intelligent sur 30 jours ?
 
 Ce planning devrait inclure :
 - Les notions clés de [concept à personnaliser]{class="highlight"} à revoir chaque semaine, présentées dans un ordre logique de progression 
-    - Semaine 1 : Concepts de base de la navigation ; 
-    - Semaine 2 : Routes imbriquées et paramètres ; 
-    - Semaine 3 : Redirections et hooks ; 
-    - Semaine 4 : Protection des routes.
+    - Semaine 1 : Concepts de base de [concept à personnaliser]{class="highlight"} ; 
+    - Semaine 2 :[Zoom 1 sur le concept à personnaliser]{class="highlight"} ; 
+    - Semaine 3 : [Zoom 2 sur le concept à personnaliser]{class="highlight"} ; 
+    - Semaine 4 : [Zoom 3 sur le concept à personnaliser]{class="highlight"} .
 - Des mini-quizz à effectuer tous les 4 jours sur les notions récemment révisées.
 - Des rappels intelligents pour les notions importantes, basés sur les principes de la courbe de l'oubli, pour m'aider à ne pas oublier ce que j'ai appris.
-- Enfin, un projet final de consolidation à la fin des 30 jours : un scénario [concept à personnaliser]{class="highlight"} où je devrais implémenter toutes les fonctionnalités de navigation complexes vues précédemment dans un contexte réaliste.
+- Enfin, un projet final de consolidation à la fin des 30 jours : un scénario [concept à personnaliser]{class="highlight"} où je devrais implémenter toutes les fonctionnalités de [concept à personnaliser]{class="highlight"} vues précédemment dans un contexte réaliste.
 ::
