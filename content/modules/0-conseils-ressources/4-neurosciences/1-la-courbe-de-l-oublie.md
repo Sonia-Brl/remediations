@@ -1,7 +1,7 @@
 ---
 title: La courbe de l'oublie
 module: Conseils et ressources
-submodule: 4 - Neurosciences
+submodule: 4 - Neurosciences et biais cognitif 
 ready: true
 summary: false
 toc: true
