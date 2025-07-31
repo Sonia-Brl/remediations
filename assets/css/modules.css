@@ -34,6 +34,9 @@
   list-style: disc;
   margin-left: 2rem;
 }
+.modules-navigation  li {
+  list-style: none !important;
+}
 
 .module-content img:first-child {
   margin: 2rem auto;
