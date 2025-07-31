@@ -38,7 +38,9 @@ Le secret : **moins de contenu, mais revu plus souvent**.
 - **Optimiser les conditions** : être attentif, reposé, et bien dormir
 
 ## Attention : chacun est différent !
-Ebbinghaus lui-même le disait : "la performance de retenir dépend de chaque élève". Sa courbe donne des tendances générales, pas des règles absolues.
+Ebbinghaus lui-même le disait : "la performance de retenir dépend de chaque élève". 
+
+Sa courbe donne des tendances générales, pas des règles absolues.
 
 ## En pratique dans l'enseignement
 Cette découverte se traduit concrètement par :
