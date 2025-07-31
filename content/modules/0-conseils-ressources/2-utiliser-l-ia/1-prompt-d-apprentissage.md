@@ -39,17 +39,13 @@ Paradoxalement, il était souvent plus rentable de continuer à chercher dans le
 Puis vinrent les révolutions successives :
 
 - **L'ADSL** démocratisa l'accès avec le forfait illimité. Soudain, rester connecté devenait abordable.
-
 - **La fibre optique** élimina les dernières barrières techniques, transformant Internet en une extension naturelle de notre environnement.
-
 - **L'indexation Google** révolutionna la recherche d'information. Fini les annuaires Yahoo ! Place à l'algorithme qui comprend nos intentions.
-
 - **La démocratisation de la publication** permit à chacun de contribuer au savoir collectif. Blogs, forums, sites personnels : le web devenait participatif.
 
 ####  L'âge d'or collaboratif (2010s)
 
 - **Wikipédia** marqua un tournant majeur. Cette encyclopédie collaborative remplaça progressivement mes références papier. Pour la première fois dans l'histoire, le savoir devenait gratuit, accessible et constamment mis à jour par l'intelligence collective.
-
 - **Google** se transforma en portail universel, me permettant de voyager à travers d'innombrables domaines de connaissance, de connecter des idées distantes, de satisfaire ma curiosité en quelques clics.
 
 ####  L'ère de l'IA : une nouvelle frontière (2020s)
@@ -67,7 +63,7 @@ En tant que formatrice, je me trouve face à un paradoxe : je ne peux pas vous e
 J'ai donc décidé de partager quelques conseils pour optimiser l'utilisation de cet outil révolutionnaire. 
 Mes recommandations s'appuient sur mon expérience personnelle et sur mes recherches les plus récentes en optimisation de prompts.
 
-À vous de choisir de les expérimenter, et pourquoi pas d'en adopter quelques-uns dans votre propre quête du savoir."
+À vous de choisir de les expérimenter, et pourquoi pas d'en adopter quelques-uns dans votre propre quête du savoir.
 ::
 
 
