@@ -7,16 +7,24 @@ summary: false
 toc: true
 ---
 
+# Prompt d'apprentissage
+
+
+**Introduction**
+
 ::Modal 
 ---
-label: Petit mot de Sonia
+label: 3615 Sonia raconte sa vie
 ---
 
 ####  [L'évolution de l'accès à la connaissance : un parcours épique]{class="text-6xl uppercase font-bold font-anton"}
 
 
+----
 
->J'ai eu la chance d'apprendre à apprendre dans une époque sans IA, et j'ai vécu de l'intérieur cette révolution silencieuse de l'accès au savoir.
+J'ai eu la chance d'apprendre à apprendre dans une époque sans IA, et j'ai vécu de l'intérieur cette révolution silencieuse de l'accès au savoir.
+
+----
 
 ####  L'ère analogique : les fondations (années 80-90)
 
@@ -69,10 +77,6 @@ Mes recommandations s'appuient sur mon expérience personnelle et sur mes recher
 ::
 
 
-# Prompt d'apprentissage
-
-
-**Introduction**
 
 L'utilisation systématique de l'IA sans logique d'apprentissage peut sérieusement compromettre votre développement en tant que développeur web. 
 

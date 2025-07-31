@@ -1,6 +1,6 @@
 <template>
   <UModal fullscreen>
-    <UButton :label="`${label}`" color="primary"class="scrib text-xl rounded-none float-right text-right font-marker" size="xl" trailing-icon="i-lucide-arrow-right"/>
+    <UButton :label="`${label}`" color="primary"class="scrib text-xl rounded-none  font-marker" size="xl" trailing-icon="i-lucide-arrow-right"/>
 
     <template #body>
       <slot />

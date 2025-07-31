@@ -14,6 +14,10 @@ h1,h2{
   font-family: 'Anton';
   letter-spacing: 0.1rem;
 }
+h4{
+  font-family: 'Anton';
+  letter-spacing: 0.1rem;
+}
 
 h1,h2,h3,h4,h5{
   font-weight: bold;
