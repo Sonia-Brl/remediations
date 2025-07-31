@@ -58,7 +58,7 @@ Nous disposons de réseaux de neurones spécialisés dans la probabilité lingui
 
 Cette odyssée m'a appris **comment j'apprends**, quelles méthodes me conviennent, et surtout **comment questionner intelligemment** l'IA en sachant ce que je cherche et pourquoi.
 
-En tant que formatrice, je me trouve face à un paradoxe : je ne peux pas vous empêcher de vivre avec votre temps. Je vous invitons à utiliser l'IA avec parcimonie pour préserver l'efficacité de votre esprit critique, mais votre libre arbitre fait loi.
+En tant que formatrice, je me trouve face à un paradoxe : je ne peux pas vous empêcher de vivre avec votre temps. Je vous invite à utiliser l'IA avec parcimonie pour préserver l'efficacité de votre esprit critique, mais votre libre arbitre fait loi.
 
 J'ai donc décidé de partager quelques conseils pour optimiser l'utilisation de cet outil révolutionnaire. 
 Mes recommandations s'appuient sur mon expérience personnelle et sur mes recherches les plus récentes en optimisation de prompts.
