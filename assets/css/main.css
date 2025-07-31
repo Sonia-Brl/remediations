@@ -31,7 +31,8 @@ h3{
 
 
 h1{
-  @apply text-6xl my-10 text-center;
+  @apply text-3xl lg:text-6xl my-10 text-center;
+
 }
 
 h2{
@@ -51,6 +52,9 @@ code{
 }
 .font-marker{
  font-family: "Permanent Marker", cursive;
+}
+.font-anton{
+  font-family: 'Anton';
 }
 
 .bg-default{

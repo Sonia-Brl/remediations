@@ -4,8 +4,21 @@
 
 
 
+.module-content blockquote{
+    @apply bg-slate-100 dark:bg-slate-950 p-4 ; 
+}
+.module-content .link-highlight{
+  text-decoration: underline;
+}
 
-
+.module-content .highlight {
+  background-color: yellow; color:black;
+  font-style: italic;
+  @apply text-sm; 
+}
+.module-content pre {
+   @apply bg-slate-100 dark:bg-slate-950 p-4 ; 
+}
 .module-content strong{
    font-weight: bolder;
 }
@@ -13,19 +26,18 @@
    @apply my-4
 }
 
-.module-content li{
+.module-content ol > li{
+  list-style:decimal;
+}
+
+.module-content ul > li{
   list-style: disc;
-  margin-left: 4rem;
+  margin-left: 2rem;
 }
 
 .module-content img:first-child {
   margin: 2rem auto;
   text-align: center;
-}
-
-.modules-navigation li{
-    list-style: none;
-  margin-left: 0;
 }
 
 
