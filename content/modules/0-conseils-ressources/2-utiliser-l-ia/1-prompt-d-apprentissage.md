@@ -12,11 +12,11 @@ toc: true
 label: Petit mot de Sonia
 ---
 
-### [L'évolution de l'accès à la connaissance : un parcours épique]{class="text-6xl uppercase font-bold font-anton"}
+####  [L'évolution de l'accès à la connaissance : un parcours épique]{class="text-6xl uppercase font-bold font-anton"}
 
 J'ai eu la chance d'apprendre à apprendre dans une époque sans IA, et j'ai vécu de l'intérieur cette révolution silencieuse de l'accès au savoir.
 
-#### L'ère analogique : les fondations (années 80-90)
+####  L'ère analogique : les fondations (années 80-90)
 
 Tout a commencé dans les **bibliothèques municipales** aux rayonnages infinis, où le silence était sacré. 
 
@@ -28,13 +28,13 @@ Dans les **CDI** des établissements scolaires, l'odeur de l'encre fraîche des 
 
 Chaque information avait un coût en temps et en effort, ce qui nous forçait à être **méthodiques et critiques**.
 
-#### La première révolution : Internet payant (fin 90s)
+####  La première révolution : Internet payant (fin 90s)
 
 L'arrivée d'**Internet** fut un bouleversement, mais avec ses contraintes : connexion **payante à la minute**, débit de 56k, pages qui se chargeaient ligne par ligne.
 
 Paradoxalement, il était souvent plus rentable de continuer à chercher dans les livres ! Cette friction naturelle nous obligeait à préparer nos recherches, à être précis dans nos requêtes.
 
-### L'accélération technologique (2000-2010)
+####  L'accélération technologique (2000-2010)
 
 Puis vinrent les révolutions successives :
 
@@ -46,19 +46,19 @@ Puis vinrent les révolutions successives :
 
 - **La démocratisation de la publication** permit à chacun de contribuer au savoir collectif. Blogs, forums, sites personnels : le web devenait participatif.
 
-#### L'âge d'or collaboratif (2010s)
+####  L'âge d'or collaboratif (2010s)
 
 - **Wikipédia** marqua un tournant majeur. Cette encyclopédie collaborative remplaça progressivement mes références papier. Pour la première fois dans l'histoire, le savoir devenait gratuit, accessible et constamment mis à jour par l'intelligence collective.
 
 - **Google** se transforma en portail universel, me permettant de voyager à travers d'innombrables domaines de connaissance, de connecter des idées distantes, de satisfaire ma curiosité en quelques clics.
 
-### L'ère de l'IA : une nouvelle frontière (2020s)
+####  L'ère de l'IA : une nouvelle frontière (2020s)
 
 Aujourd'hui, l'**Intelligence Artificielle** représente un saut quantique. 
 
 Nous disposons de réseaux de neurones spécialisés dans la probabilité linguistique, capables de synthétiser et de raisonner sur des corpus gigantesques.
 
-#### Le paradoxe du formateur moderne
+####  Le paradoxe du formateur moderne
 
 Cette odyssée m'a appris **comment j'apprends**, quelles méthodes me conviennent, et surtout **comment questionner intelligemment** l'IA en sachant ce que je cherche et pourquoi.
 
