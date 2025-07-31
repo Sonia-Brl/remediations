@@ -331,6 +331,7 @@ Elle ne repose pas sur le bachotage, mais sur l'application de principes scienti
 ![La courbe de l’oubli d’Ebbinghaus](https://www.pedagogie.ac-nantes.fr/medias/photo/courbe_1590677138081-jpg?ID_FICHE=585469 "La courbe de l’oubli d’Ebbinghaus")
 **A LIRE :**
 - [La courbe de l’oubli d’Ebbinghaus](https://www.pedagogie.ac-nantes.fr/innovation-pedagogique/echanger/la-courbe-de-l-oubli-d-ebbinghaus-1290774.kjsp){:target="_blank" class="link-highlight"}
+- [La courbe de l’oubli d’Ebbinghaus by Sonia](https://remediations.vercel.app/modules/0-conseils-ressources/4-neurosciences/1-la-courbe-de-l-oublie){:target="_blank" class="link-highlight"}
 
 L'objectif est de passer de la simple mémorisation à une maîtrise profonde et applicable du sujet.
 
