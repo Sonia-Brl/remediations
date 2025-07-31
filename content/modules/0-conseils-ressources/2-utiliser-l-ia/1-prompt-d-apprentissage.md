@@ -17,7 +17,7 @@ toc: true
 label: 3615 Sonia raconte sa vie
 ---
 
-####  [L'évolution de l'accès à la connaissance : un parcours épique]{class="text-6xl uppercase font-bold font-anton"}
+####  [L'évolution de l'accès à la connaissance : un parcours épique]{class="lg:text-6xl uppercase font-bold font-anton"}
 
 
 ----

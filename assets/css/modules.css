@@ -38,6 +38,9 @@
   list-style: none !important;
   margin-left: 0 !important;
 }
+.module-content  li{
+   margin: 1rem 0 ;
+}
 
 .module-content img:first-child {
   margin: 2rem auto;

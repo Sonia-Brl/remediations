@@ -42,9 +42,8 @@ h1{
 h2{
   font-size: 1.6rem;
   margin: 2rem 0;
-@apply pt-4 border-b ;
+@apply pt-4 border-b text-xl lg:text-4xl ;
 }
-
 
 
 hr {
