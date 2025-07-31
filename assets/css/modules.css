@@ -36,6 +36,7 @@
 }
 .modules-navigation  li {
   list-style: none !important;
+  margin-left: 0 !important;
 }
 
 .module-content img:first-child {
